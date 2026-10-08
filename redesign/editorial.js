@@ -65,6 +65,7 @@
   toggle.addEventListener('click', () => {
     if (film.paused) { userPaused = false; play(); }
     else { userPaused = true; film.pause(); }
+    update();
   });
   fullscreen.addEventListener('click', async () => {
     try {
