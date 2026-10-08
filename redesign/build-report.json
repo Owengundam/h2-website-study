@@ -1,0 +1,31 @@
+{
+  "pages": 40,
+  "projects": 13,
+  "languages": [
+    "en",
+    "zh-CN"
+  ],
+  "optimized_images": 101,
+  "film_frames_used": 3,
+  "source_film_duration": 15.32,
+  "preview_noindex": true,
+  "warnings": [
+    "Skipped unreadable image: site/www.h2arch.com/wp-content/uploads/2025/07/123-1-scaled.jpg: image file is truncated (4 bytes not processed)",
+    "Skipped unreadable image: site/www.h2arch.com/wp-content/uploads/2025/07/926707f86936fd2f44b26588c7e282f.jpg: image file is truncated (16 bytes not processed)",
+    "Skipped unreadable image: site/www.h2arch.com/wp-content/uploads/2025/07/589954034fccf47eef1dedf6e3171cf.jpg: image file is truncated (14 bytes not processed)",
+    "Skipped unreadable image: site/www.h2arch.com/wp-content/uploads/2025/07/fed7e7f936e6bfda43a5a315ed2c5d0.jpg: image file is truncated (31 bytes not processed)",
+    "Skipped unreadable image: site/www.h2arch.com/wp-content/uploads/2024/01/C10.jpg: image file is truncated (0 bytes not processed)",
+    "Skipped unreadable image: site/www.h2arch.com/wp-content/uploads/2024/01/C8.jpg: image file is truncated (1 bytes not processed)",
+    "Skipped unreadable image: site/www.h2arch.com/wp-content/uploads/2024/01/C9.jpg: image file is truncated (2 bytes not processed)",
+    "Skipped unreadable image: site/www.h2arch.com/wp-content/uploads/2024/01/C6.jpg: image file is truncated (13 bytes not processed)",
+    "Skipped unreadable image: site/www.h2arch.com/wp-content/uploads/2024/01/k1.jpg: image file is truncated (1 bytes not processed)",
+    "Skipped unreadable image: site/www.h2arch.com/wp-content/uploads/2023/10/r4.jpg: image file is truncated (3 bytes not processed)",
+    "Skipped unreadable image: site/www.h2arch.com/wp-content/uploads/2024/02/R11.jpg: image file is truncated (3 bytes not processed)",
+    "Skipped unreadable image: site/www.h2arch.com/wp-content/uploads/2024/01/微信图片_20240124112008.jpg: image file is truncated (13 bytes not processed)",
+    "Skipped unreadable image: site/www.h2arch.com/wp-content/uploads/2024/01/y1-1.jpg: image file is truncated (0 bytes not processed)",
+    "Skipped unreadable image: site/www.h2arch.com/wp-content/uploads/2024/01/微信图片_20240124111230.jpg: image file is truncated (48 bytes not processed)",
+    "Skipped unreadable image: site/www.h2arch.com/wp-content/uploads/2024/01/微信图片_20240124111226.jpg: image file is truncated (6 bytes not processed)",
+    "Skipped unreadable image: site/www.h2arch.com/wp-content/uploads/2024/01/y2-1.jpg: image file is truncated (33 bytes not processed)",
+    "Skipped unreadable image: site/www.h2arch.com/wp-content/uploads/2024/01/S7.jpg: image file is truncated (56 bytes not processed)"
+  ]
+}

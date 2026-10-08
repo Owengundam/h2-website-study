@@ -37,6 +37,7 @@
       });
       filters.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.filter === category)));
       if (count) count.textContent = String(visible).padStart(2, '0');
+      $$('[data-filter-decoration]').forEach(el => { el.hidden = category !== 'all'; });
       if (empty) empty.hidden = visible > 0;
       if (updateUrl) {
         const url = new URL(location.href);
