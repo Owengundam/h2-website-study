@@ -1,0 +1,25 @@
+/* Keep the original H2 identity intact; retain the existing Work image wall. */
+.brand{display:flex;align-items:center;flex:none;max-width:48%;gap:0}
+.brand img.brand-logo{width:260px;height:auto;max-width:100%;object-fit:contain;filter:none;transform:none;aspect-ratio:3402/503}
+.home-opening{margin:0}
+.home-cinema{position:relative;overflow:hidden;background:#1c211f;min-height:230px;aspect-ratio:16/9;max-height:calc(100svh - 145px)}
+.home-film{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;background:#1c211f}
+.home-film-caption{padding:16px var(--pad);display:flex;gap:20px;justify-content:space-between;align-items:center;font-size:10px;text-transform:uppercase;letter-spacing:.07em;border-bottom:1px solid var(--line)}
+.home-film-caption a:hover{text-decoration:underline;text-underline-offset:5px}
+.film-controls{position:absolute;right:24px;bottom:22px;display:flex;gap:18px;z-index:2;padding:8px 13px;color:white;background:rgba(0,0,0,.55);font-size:10px;text-transform:uppercase;letter-spacing:.07em;border:1px solid rgba(255,255,255,.4)}
+.film-controls button{min-height:30px;padding:2px 5px;color:inherit}
+.film-controls button:focus-visible{outline-color:white}
+.film-message{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);max-width:80%;text-align:center;color:#fff;font-size:13px;line-height:1.7;background:rgba(0,0,0,.65);padding:18px 24px}
+.film-message a{text-decoration:underline;text-underline-offset:4px}
+.home-introduction{display:grid;grid-template-columns:1fr 2fr;gap:8vw;padding-top:90px;padding-bottom:95px}
+.home-introduction>.eyebrow{padding-top:12px}
+.home-introduction h1{font-family:var(--serif);font-size:clamp(36px,4.3vw,66px);line-height:1.1;letter-spacing:-.035em;max-width:800px;margin-bottom:30px}
+.home-introduction p:not(.eyebrow){font-size:15px;line-height:1.85;max-width:710px;margin-top:20px}
+.home-introduction .arrow-link{margin-top:25px}
+.home-page .work-tools{scroll-margin-top:25px}
+.project-credits{font-size:11px!important;line-height:1.7!important;color:var(--muted);max-width:680px;margin-top:36px!important}
+.chapter-copy p{line-height:1.85}
+.article-body h2{margin-top:45px}.article-body .arrow-link{margin-top:40px}
+@media(max-width:1100px){.brand img.brand-logo{width:235px}.home-introduction{gap:40px;padding-top:65px;padding-bottom:70px}}
+@media(max-width:700px){.brand{max-width:70%}.brand img.brand-logo{width:204px}.site-header{min-height:88px}.home-cinema{aspect-ratio:4/3;max-height:75svh;min-height:210px}.home-film{object-fit:contain}.home-film-caption{padding:13px 20px;align-items:start;font-size:8px;line-height:1.6;gap:22px}.home-film-caption>span{max-width:62%}.home-film-caption a{white-space:nowrap}.film-controls{right:12px;bottom:10px;gap:10px;padding:3px 8px;font-size:9px}.home-introduction{grid-template-columns:1fr;gap:20px;padding-top:43px;padding-bottom:48px}.home-introduction>.eyebrow{padding-top:0}.home-introduction h1{font-size:38px;margin-bottom:23px}.home-introduction p:not(.eyebrow){font-size:14px;line-height:1.8;margin-top:17px}.home-introduction .arrow-link{margin-top:17px}.film-message{font-size:11px;padding:12px 18px}}
+@media print{.home-opening{display:none}.home-introduction{padding-top:25px;padding-bottom:25px}.film-controls{display:none}}
