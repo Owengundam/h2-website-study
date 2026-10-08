@@ -1,0 +1,50 @@
+name: Review Studio homepage layout
+on:
+  push:
+    branches: [layout/studio-homepage]
+    paths: [.github/workflows/studio-layout-review.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: |
+          pip install --timeout 30 playwright
+          python -m playwright install chromium
+      - name: Inspect reference header appearance
+        shell: python
+        run: |
+          from pathlib import Path
+          from playwright.sync_api import sync_playwright
+          import json
+          out=Path('layout-qa');out.mkdir(exist_ok=True)
+          with sync_playwright() as p:
+              browser=p.chromium.launch()
+              page=browser.new_page(viewport={'width':1440,'height':960})
+              for name,url in [('studio','https://k-studio.gr/studio/'),('home','https://k-studio.gr/')]:
+                  try:
+                      page.goto(url,wait_until='domcontentloaded',timeout=45000)
+                      page.wait_for_timeout(3500)
+                      for selector in ['.cmplz-deny','button:has-text("DISABLE ALL")','button:has-text("Reject")']:
+                          try:page.locator(selector).first.click(timeout=700)
+                          except Exception:pass
+                      page.screenshot(path=str(out/f'reference-{name}.jpg'),quality=85,type='jpeg')
+                      data=page.evaluate('''()=>[...document.querySelectorAll('header,header *,#masthead,.site-header,.header,.main-navigation')].map(x=>{let s=getComputedStyle(x),r=x.getBoundingClientRect();return {tag:x.tagName,id:x.id,cls:x.className,bg:s.backgroundColor,opacity:s.opacity,position:s.position,blur:s.backdropFilter,color:s.color,height:r.height,y:r.y}}).filter(x=>x.height>0).slice(0,100)''')
+                      (out/f'reference-{name}.json').write_text(json.dumps(data,indent=2))
+                      (out/f'reference-{name}.html').write_text(page.content())
+                  except Exception as error:
+                      (out/f'reference-{name}-error.txt').write_text(str(error))
+              browser.close()
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: studio-layout-review
+          path: layout-qa
+          retention-days: 7

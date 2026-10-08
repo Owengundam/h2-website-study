@@ -1,0 +1,36 @@
+/* Landing header: K-Studio's transparent, no-blur treatment; original H2 assets. */
+.studio-homepage .site-header{position:fixed;inset:0 0 auto;z-index:30;background:rgba(255,255,255,0);color:#fff;border:0;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;transition:background-color .25s,color .25s}
+.studio-homepage .site-header .language-switch{color:rgba(255,255,255,.7)}
+.studio-homepage .site-header .language-switch .current{color:#fff}
+.studio-homepage .site-header .main-nav a[aria-current=page]{background:transparent;color:inherit;padding:0;margin:0}
+.studio-homepage .site-header .main-nav a[aria-current=page]:after{display:block;transform:scaleX(1)}
+.studio-homepage .brand{position:relative}
+.studio-homepage .brand-logo{opacity:0;transition:opacity .2s}
+.studio-homepage .brand img.brand-logo-white{position:absolute;inset:0;width:100%;height:auto;aspect-ratio:3402/503;object-fit:contain;filter:none;transform:none;opacity:1;transition:opacity .2s}
+.studio-homepage .site-header.is-past-hero,.studio-homepage .site-header.is-open{background:#fefdf9;color:var(--ink)}
+.studio-homepage .site-header:is(.is-past-hero,.is-open) .brand-logo{opacity:1}
+.studio-homepage .site-header:is(.is-past-hero,.is-open) .brand-logo-white{opacity:0}
+.studio-homepage .site-header:is(.is-past-hero,.is-open) .language-switch{color:var(--muted)}
+.studio-homepage .site-header:is(.is-past-hero,.is-open) .language-switch .current{color:var(--ink)}
+.studio-homepage .studio-landing{position:relative;margin:0;width:100%;height:100svh;min-height:540px;max-height:1200px;background:#263b44;overflow:hidden}
+.studio-landing-image{height:100%;width:100%}
+.studio-landing img{width:100%;height:100%;max-height:none;object-fit:cover;object-position:50% 60%;aspect-ratio:auto}
+.studio-landing-caption{position:absolute;inset:auto 0 0;padding:25px var(--pad);display:flex;justify-content:space-between;gap:20px;color:#fff;font-size:10px;text-transform:uppercase;letter-spacing:.08em;background:linear-gradient(transparent,rgba(0,0,0,.3));line-height:1.6}
+.studio-landing-caption a:hover{text-decoration:underline;text-underline-offset:5px}
+.studio-homepage .page-lead{margin-top:95px;margin-bottom:110px;scroll-margin-top:145px}
+.studio-work{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(40px,6vw,105px);align-items:center;margin:0 var(--pad) 110px;scroll-margin-top:145px}
+.studio-work-copy{min-width:0}
+.studio-work-copy .chapter-label{margin-bottom:30px}
+.studio-work-copy .chapter-copy h2{font-size:clamp(30px,3.2vw,49px);max-width:650px}
+.studio-work-copy .chapter-copy p{font-size:14px;line-height:1.85}
+.studio-work-copy .arrow-link{margin-top:24px}
+.studio-work-film{margin:0;min-width:0}
+.studio-work-film .home-cinema{aspect-ratio:16/9;min-height:0;max-height:none;background:#1c211f;width:100%;overflow:hidden}
+.studio-work-film .home-film{object-fit:contain}
+.studio-film-caption{padding-top:13px;font-size:10px;line-height:1.6;color:var(--muted);letter-spacing:.05em;text-transform:uppercase}
+.studio-work-film .film-controls{right:12px;bottom:12px;gap:12px;padding:4px 8px;font-size:9px}
+.studio-work-film .film-message{width:85%;font-size:12px;padding:12px 16px}
+@media(max-width:1100px){.studio-work{gap:35px;margin-bottom:80px}.studio-homepage .page-lead{margin-top:65px;margin-bottom:75px}.studio-work-copy .chapter-copy h2{font-size:34px}.studio-work-copy .chapter-copy p{font-size:13px}.studio-work-film .film-controls{gap:6px}}
+@media(max-width:700px){.studio-homepage .studio-landing{height:88svh;min-height:440px;max-height:900px}.studio-landing img{object-position:50% 60%}.studio-landing-caption{font-size:8px;padding:20px var(--pad);gap:15px}.studio-homepage .site-header.is-open .nav-wrap{background:#fefdf9;color:var(--ink)}.studio-homepage .page-lead{margin-top:45px;margin-bottom:60px;scroll-margin-top:115px}.studio-work{grid-template-columns:1fr;gap:35px;margin-bottom:60px;scroll-margin-top:115px}.studio-work-copy .chapter-label{margin-bottom:23px}.studio-work-copy .chapter-copy h2{font-size:33px}.studio-work-copy .chapter-copy p{font-size:14px}.studio-work-copy .arrow-link{margin-top:20px}.studio-work-film .home-cinema{aspect-ratio:16/9;min-height:0}.studio-film-caption{font-size:9px;padding-top:10px}}
+@media(prefers-reduced-motion:reduce){.studio-homepage .site-header,.studio-homepage .brand-logo,.studio-homepage .brand-logo-white{transition:none}}
+@media print{.studio-homepage .site-header{display:none}.studio-homepage .studio-landing{height:300px;min-height:0}.studio-work{display:block;margin:25px 0}.studio-work-film{display:none}.studio-homepage .page-lead{margin:25px 0}}
