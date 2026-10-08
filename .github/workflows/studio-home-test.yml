@@ -1,0 +1,50 @@
+name: Test Studio homepage
+on:
+  push:
+    branches: [layout/studio-homepage]
+    paths:
+      - scripts/studio_homepage.py
+      - scripts/package_redesign.py
+      - scripts/test_studio_layout.py
+      - redesign/studio-home.css
+      - redesign/studio-home.js
+      - redesign/editorial.js
+      - .github/workflows/studio-home-test.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: studio-home-tests
+  cancel-in-progress: true
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Package and validate all links
+        run: python scripts/package_redesign.py
+      - name: Install browser test tool
+        run: |
+          pip install --timeout 30 playwright
+          python -m playwright install chromium
+      - name: Test desktop, mobile, bilingual routes and original video
+        env:
+          H2_TEST_URL: http://127.0.0.1:8765/
+          H2_QA_DIR: layout-qa
+        run: |
+          python -m http.server 8765 --directory _site >/tmp/h2-http.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID"' EXIT
+          python scripts/test_studio_layout.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: studio-home-tested
+          path: |
+            layout-qa
+            _site
+          retention-days: 7
