@@ -1,0 +1,72 @@
+name: Prepare original H2 films
+on:
+  push:
+    branches: [update/identity-film-copy]
+    paths: [.github/workflows/prepare-original-films.yml]
+permissions:
+  contents: write
+jobs:
+  films:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: |
+          pip install requests Pillow imageio-ffmpeg
+      - name: Preserve original identity and prepare web films
+        shell: python
+        run: |
+          import requests,pathlib,subprocess,json,shutil,re
+          import imageio_ffmpeg
+          from PIL import Image,ImageDraw
+          ffmpeg=imageio_ffmpeg.get_ffmpeg_exe()
+          out=pathlib.Path('redesign/assets/original');out.mkdir(parents=True,exist_ok=True)
+          qa=pathlib.Path('film-review');qa.mkdir(exist_ok=True)
+          uploads=pathlib.Path('site/www.h2arch.com/wp-content/uploads')
+          for name,target in [('2025/05/h2_logo_2025_black.png','h2-logo-black.png'),('2025/05/h2_logo_2025_white.png','h2-logo-white.png'),('2024/01/h2arch-favicon-150x150.png','h2-favicon.png')]:
+              shutil.copy2(uploads/name,out/target)
+          report=[]
+          for slug,url in [('atmosphere','https://www.h2arch.com/wp-content/uploads/2023/10/20230928-atmosphere低清版.mp4'),('nalati','https://www.h2arch.com/wp-content/uploads/2026/09/ebecf9ca7be23fc5e1d704959262e7f6-1.mp4')]:
+              raw=pathlib.Path('/tmp')/(slug+'.mp4')
+              with requests.get(url,stream=True,timeout=(15,90)) as response:
+                  response.raise_for_status()
+                  with raw.open('wb') as f:
+                      for block in response.iter_content(1024*1024):f.write(block)
+              probe=subprocess.run([ffmpeg,'-hide_banner','-i',str(raw)],capture_output=True,text=True)
+              match=re.search(r'Duration: (\d+):(\d+):(\d+\.\d+)',probe.stderr)
+              if not match:raise RuntimeError('Invalid film '+probe.stderr)
+              h,m,s=map(float,match.groups());duration=h*3600+m*60+s
+              # Preserve the full film sequence; only web resolution/compression change.
+              subprocess.run([ffmpeg,'-loglevel','error','-i',str(raw),'-vf','scale=1280:-2','-c:v','libx264','-preset','veryfast','-crf','26','-an','-movflags','+faststart','-y',str(out/(slug+'.mp4'))],check=True)
+              frames=[]
+              for i in range(12):
+                  t=duration*(i+.5)/12;path=qa/f'{slug}-{i:02}.jpg'
+                  subprocess.run([ffmpeg,'-loglevel','error','-ss',str(t),'-i',str(raw),'-frames:v','1','-vf','scale=800:-2','-q:v','3','-y',str(path)],check=True)
+                  frames.append((path,t))
+              sheet=Image.new('RGB',(1200,3*200),'white');draw=ImageDraw.Draw(sheet)
+              for i,(path,t) in enumerate(frames):
+                  im=Image.open(path);im.thumbnail((298,168));x=i%4*300;y=i//4*200
+                  sheet.paste(im,(x,y));draw.text((x+5,y+171),f'{slug} {i:02}: {t:.2f}s',fill='black')
+              sheet.save(qa/f'{slug}-sheet.jpg')
+              shutil.copy2(frames[1][0],out/(slug+'-poster.jpg'))
+              report.append({'name':slug,'source':url,'duration':duration,'bytes':(out/(slug+'.mp4')).stat().st_size,'frames':[{'file':str(p),'time':t} for p,t in frames]})
+          (out/'provenance.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+          print(json.dumps(report,ensure_ascii=False))
+      - name: Save original assets on revision branch
+        run: |
+          git config user.name 'H2 Website'
+          git config user.email 'noreply@users.noreply.github.com'
+          git add redesign/assets/original
+          git commit -m 'Preserve original H2 logos and prepare existing atmosphere and Nalati films'
+          git pull --rebase origin update/identity-film-copy
+          git push origin HEAD:update/identity-film-copy
+      - uses: actions/upload-artifact@v4
+        with:
+          name: h2-original-films
+          path: |
+            redesign/assets/original
+            film-review
+          retention-days: 7
