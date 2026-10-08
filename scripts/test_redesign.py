@@ -83,6 +83,13 @@ try:
                 if width in [390,1440]:
                     page.evaluate("document.querySelectorAll('img[loading]').forEach(i=>i.loading='eager')")
                     page.wait_for_function("[...document.querySelectorAll('main img[src]')].every(i=>i.complete&&i.naturalWidth>0)",timeout=20000)
+                    # Wait for decoded and painted imagery, including off-screen lazy images.
+                    page.evaluate("async()=>{await Promise.all([...document.querySelectorAll('main img[src]')].map(i=>i.decode()))}")
+                    for image in page.locator('main img[src]').all():
+                        image.scroll_into_view_if_needed()
+                        page.wait_for_timeout(60)
+                    page.evaluate('scrollTo(0,0)')
+                    page.wait_for_timeout(200)
                     page.screenshot(path=str(QA/f'{width}-{route.strip("/").replace("/","-") or "work"}.jpg'),full_page=True,type='jpeg',quality=80)
         page.set_viewport_size({'width':390,'height':844})
         page.goto(base,wait_until='networkidle')

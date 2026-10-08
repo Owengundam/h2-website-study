@@ -228,7 +228,7 @@ for lang in ['en','zh']:
     ],['事务所公开的服务内容覆盖前期策略、规划、建筑设计和项目协调。酒店与度假建筑是核心方向，并延伸至旅游目的地、住宅开发及综合体项目。','本作品集将这些项目视作一组相互关联的实践：抵达、停留、相聚，以及再次回来。每个项目页面均保留源档案链接，让设计叙述与事实记录保持联系。'],'approach')
     services=[('Strategy','前期策略','Research, positioning, product advice and development phasing.','研究、定位、产品建议与开发分期。'),('Planning','规划','Destination, tourism and urban planning.','目的地、旅游及城市规划。'),('Architecture','建筑','Urban hotels, resort hotels and luxury villas.','城市酒店、度假酒店与高端别墅。'),('Coordination','协调','Project-management consultancy and general coordination.','项目管理顾问与总体协调。')]
     body+='<section class="chapter"><div class="chapter-label"><span>02</span><span>'+pg.tr('Expertise','专业领域')+'</span></div><ul class="service-list">'+''.join(f'<li><span class="number">0{i+1}</span><div><h3>{pg.tr(a,b)}</h3><p>{pg.tr(c,d)}</p></div></li>' for i,(a,b,c,d) in enumerate(services))+'</ul></section>'
-    # Identify a real portrait in the existing profile page; otherwise use no invented portrait.
+    # Select a studio interior from the practice profile; do not invent a founder portrait.
     profile=BeautifulSoup((ARCHIVE/'profile/index.html').read_text(),'html.parser')
     portrait=None
     for img in profile.select('img'):
@@ -237,7 +237,7 @@ for lang in ['en','zh']:
             a=asset(f)
             if a and a['height']>a['width']*.9:portrait=a;break
     founder_copy=f'<div><p class="eyebrow">{pg.tr("Founder / Chief architect","创始人 / 首席建筑师")}</p><h2>{pg.tr("Yu Hong","洪羽")}</h2><p>{pg.tr("Yu Hong is H2’s founder and chief architect. He holds a Master of Architecture from the University of Arizona. Before H2, he worked with WATG for more than a decade, including as a senior designer and associate.","洪羽是赫图建筑创始人、首席建筑师，拥有美国亚利桑那大学建筑学硕士学位。创办赫图之前，他曾在WATG工作十余年，担任资深设计师及Associate。")}</p><p>{pg.tr("His published biography spans master planning, urban hotels and destination resorts. Experience gained before H2 belongs to his individual career history and should not be confused with projects commissioned to the H2 practice.","其公开履历涵盖总体规划、城市酒店与度假目的地。创办赫图之前的项目经验属于个人职业履历，不应等同于赫图事务所承接的项目。")}</p><div class="source-notes"><a href="https://www.h2arch.com/profile/">{pg.tr("Published biography ↗","公开履历 ↗")}</a></div></div>'
-    body+=f'<section class="portrait-layout">{pg.image(portrait,pg.tr("Yu Hong, portrait from H2’s profile","洪羽，图片来自赫图公开介绍")) if portrait else "<p class=eyebrow>H2 / PEOPLE</p>"}{founder_copy}</section>'
+    body+=f'<section class="portrait-layout">{pg.image(portrait,pg.tr("Inside the H2 studio, from the practice profile","赫图工作室空间，图片来自事务所公开介绍")) if portrait else "<p class=eyebrow>H2 / PEOPLE</p>"}{founder_copy}</section>'
     body+=f'<section class="work-end container"><p>{pg.tr("A conversation starts with a place and an ambition.","一次交流，从场地与愿景开始。")}</p>{pg.arrow("contact/",pg.tr("Start a conversation","开始交流"))}</section>'
     pg.write(pg.tr('Studio','事务所'),body,'studio',pg.tr('H2 Architecture: hospitality design, destination planning and the practice of founder Yu Hong.','赫图建筑：酒店设计、目的地规划与创始人洪羽的建筑实践。'))
     # Journal: genuinely readable articles, not dead placeholder cards.
