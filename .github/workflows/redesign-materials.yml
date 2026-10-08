@@ -1,0 +1,126 @@
+name: Prepare redesign materials
+on:
+  push:
+    branches: [redesign/k-studio-indigo]
+    paths: [.github/workflows/redesign-materials.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  materials:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: redesign/k-studio-indigo
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4 pillow playwright
+      - run: python -m playwright install --with-deps chromium
+      - name: Inventory H2 and extract film frames
+        shell: python
+        run: |
+          import json, re, pathlib, urllib.parse, subprocess, shutil, requests, hashlib
+          from bs4 import BeautifulSoup
+          from PIL import Image, ImageDraw, ImageOps
+          root = pathlib.Path('.')
+          out = root / 'redesign'
+          assets = out / 'assets' / 'indigo'
+          research = root / 'redesign-research'
+          assets.mkdir(parents=True, exist_ok=True)
+          research.mkdir(parents=True, exist_ok=True)
+          projects = []
+          for file in sorted((root/'site/www.h2arch.com/portfolio-item').glob('*/index.html')):
+              soup = BeautifulSoup(file.read_text(), 'html.parser')
+              content = soup.select_one('.qodef-portfolio-single') or soup.select_one('#qodef-page-content') or soup
+              imgs=[]
+              for img in content.select('img'):
+                  src=img.get('data-lazy-src') or img.get('data-src') or img.get('src','')
+                  u=urllib.parse.urlparse(src.replace('https:/www.','https://www.'))
+                  path=urllib.parse.unquote(u.path)
+                  if u.netloc: path='/'+u.netloc+path
+                  local=root/'site'/path.lstrip('/')
+                  if not local.exists(): continue
+                  try:
+                      im=Image.open(local)
+                      if im.width<400 or im.height<200: continue
+                      item={'path':str(local),'width':im.width,'height':im.height,'alt':img.get('alt','')}
+                      if item['path'] not in [a['path'] for a in imgs]: imgs.append(item)
+                  except Exception: pass
+              ps=[t.get_text(' ',strip=True) for t in content.select('h1,h2,h3,p')]
+              video=[v.get('src','').replace('https:/www.','https://www.') for v in content.select('video,video source') if v.get('src')]
+              projects.append({'slug':file.parent.name,'file':str(file),'title':soup.title.get_text() if soup.title else '', 'text':ps,'images':imgs,'videos':video})
+          extra={}
+          for slug in ['profile','contact']:
+              file=root/f'site/www.h2arch.com/{slug}/index.html'
+              if file.exists():
+                  soup=BeautifulSoup(file.read_text(),'html.parser')
+                  for x in soup.select('script,style,header,footer,nav'): x.decompose()
+                  extra[slug]=soup.get_text(' ',strip=True)
+          (out/'materials.json').write_text(json.dumps({'projects':projects,'extra':extra},ensure_ascii=False,indent=2))
+          nalati=next(p for p in projects if 'nalati' in p['slug'])
+          url=next(iter(nalati['videos']), 'https://www.h2arch.com/wp-content/uploads/2024/01/20240117那拉提视频.mp4')
+          print('NALATI_VIDEO',url)
+          r=requests.get(url, timeout=180);r.raise_for_status()
+          original=research/'nalati-source.mp4';original.write_bytes(r.content)
+          info=json.loads(subprocess.check_output(['ffprobe','-v','quiet','-print_format','json','-show_format','-show_streams',str(original)]))
+          duration=float(info['format']['duration'])
+          print('VIDEO_DURATION',duration,'BYTES',len(r.content))
+          if not shutil.which('ffmpeg'): raise RuntimeError('ffmpeg is required')
+          times=[round(duration*x/25,2) for x in range(1,25)]
+          frames=[]
+          for i,t in enumerate(times,1):
+              path=assets/f'film-{i:02}.jpg'
+              subprocess.run(['ffmpeg','-loglevel','error','-ss',str(t),'-i',str(original),'-frames:v','1','-vf','scale=1600:-2','-q:v','3','-y',str(path)],check=True)
+              frames.append({'path':str(path),'time':t,'source':url,'kind':'Frame extracted from H2 published project film (January 2024 source); not asserted to be completed-project photography.'})
+          subprocess.run(['ffmpeg','-loglevel','error','-i',str(original),'-vf','scale=1280:-2','-c:v','libx264','-preset','veryfast','-crf','29','-an','-movflags','+faststart','-y',str(assets/'nalati-film.mp4')],check=True)
+          (out/'film-frames.json').write_text(json.dumps({'source':url,'duration':duration,'frames':frames},ensure_ascii=False,indent=2))
+          sheet=Image.new('RGB',(1200,6*195),'#eeeeea');draw=ImageDraw.Draw(sheet)
+          for i,f in enumerate(frames):
+              im=Image.open(f['path']);im.thumbnail((294,164));x=(i%4)*300;y=(i//4)*195
+              sheet.paste(im,(x,y));draw.text((x+5,y+166),f"{i+1:02} / {f['time']:.1f}s",fill='black')
+          sheet.save(research/'film-contact-sheet.jpg',quality=88)
+          summary=[{'slug':p['slug'],'title':p['title'],'text':p['text'],'images':p['images'],'videos':p['videos']} for p in projects]
+          (research/'inventory.json').write_text(json.dumps({'projects':summary,'extra':extra},ensure_ascii=False,indent=2))
+          print('PROJECTS',len(projects),'FRAMES',len(frames))
+          print('PROJECT_SUMMARY',json.dumps([{'slug':p['slug'],'title':p['title'],'image_count':len(p['images'])} for p in projects],ensure_ascii=False))
+      - name: Capture reference layout
+        continue-on-error: true
+        shell: python
+        run: |
+          import pathlib,json
+          from playwright.sync_api import sync_playwright
+          out=pathlib.Path('redesign-research')
+          with sync_playwright() as p:
+              browser=p.chromium.launch()
+              page=browser.new_page(viewport={'width':1440,'height':1080},device_scale_factor=1)
+              page.goto('https://k-studio.gr/work/',wait_until='domcontentloaded',timeout=90000)
+              page.wait_for_timeout(6000)
+              for selector in ['.cmplz-deny','button:has-text("DISABLE ALL")','button:has-text("Reject")']:
+                  try: page.locator(selector).first.click(timeout=1500)
+                  except: pass
+              page.screenshot(path=str(out/'k-studio-work-desktop.jpg'),full_page=True,type='jpeg',quality=80)
+              styles=page.evaluate('''() => ({title:document.title,body:getComputedStyle(document.body).cssText,fonts:[...new Set([...document.querySelectorAll('a,p,h1,h2')].map(x=>getComputedStyle(x).fontFamily))],links:[...document.querySelectorAll('a')].slice(0,70).map(x=>({text:x.innerText,rect:{x:x.getBoundingClientRect().x,y:x.getBoundingClientRect().y,width:x.getBoundingClientRect().width,height:x.getBoundingClientRect().height},font:getComputedStyle(x).fontSize})),images:[...document.images].slice(0,15).map(x=>({src:x.currentSrc,x:x.getBoundingClientRect().x,y:x.getBoundingClientRect().y,width:x.getBoundingClientRect().width,height:x.getBoundingClientRect().height}))})''')
+              (out/'reference-style.json').write_text(json.dumps(styles,indent=2))
+              page.set_viewport_size({'width':390,'height':844})
+              page.screenshot(path=str(out/'k-studio-work-mobile.jpg'),full_page=True,type='jpeg',quality=80)
+              browser.close()
+      - name: Commit prepared H2 media on redesign branch only
+        run: |
+          git config user.name 'H2 Redesign'
+          git config user.email 'noreply@users.noreply.github.com'
+          git add redesign/materials.json redesign/film-frames.json redesign/assets/indigo
+          git diff --cached --quiet || git commit -m 'Prepare original H2 portfolio inventory and 24 Nalati video frames'
+          git push origin HEAD:redesign/k-studio-indigo
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: redesign-research
+          path: |
+            redesign-research/*.json
+            redesign-research/*.jpg
+            redesign/materials.json
+            redesign/film-frames.json
+          retention-days: 7
