@@ -1,0 +1,5286 @@
+{
+  "https://www.h2arch.com/projects/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/projects/index.html",
+    "bytes": 162496,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://fonts.googleapis.com": {
+    "ok": false,
+    "status": "404|text/html; charset=utf-8",
+    "error": ""
+  },
+  "https://fonts.googleapis.com/css?family=Space%20Grotesk%3A300%2C400%2C500%2C600%2C700%2C100%2C100i%2C200%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800%2C800i%2C900&subset=latin-ext&display=swap": {
+    "ok": true,
+    "path": "site/fonts.googleapis.com/css/index.html-3f0b214819e0.css",
+    "bytes": 1183,
+    "kind": "css",
+    "status": "200|text/css; charset=utf-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_white-300x44.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_white-300x44.png",
+    "bytes": 5208,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_white.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_white.png",
+    "bytes": 34090,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_white-768x114.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_white-768x114.png",
+    "bytes": 15409,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_white-1024x151.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_white-1024x151.png",
+    "bytes": 23820,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_white-1536x227.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_white-1536x227.png",
+    "bytes": 44974,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_white-2048x303.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_white-2048x303.png",
+    "bytes": 74210,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/cn/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/index.html",
+    "bytes": 147623,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://fonts.gstatic.com": {
+    "ok": false,
+    "status": "404|text/html; charset=UTF-8",
+    "error": ""
+  },
+  "https://www.h2arch.com/": {
+    "ok": false,
+    "status": "301|text/html; charset=UTF-8",
+    "error": "curl: (47) Maximum (4) redirects followed\n"
+  },
+  "https://www.h2arch.com/wp-includes/css/classic-themes.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/css/classic-themes.min.css",
+    "bytes": 291,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/qi-blocks/assets/dist/grid.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/qi-blocks/assets/dist/grid.css",
+    "bytes": 44180,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/qi-blocks/assets/dist/main.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/qi-blocks/assets/dist/main.css",
+    "bytes": 33777,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/css/all.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/css/all.min.css",
+    "bytes": 59344,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/elegant-icons/assets/css/elegant-icons.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/elegant-icons/assets/css/elegant-icons.min.css",
+    "bytes": 22518,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/cn/projects-cn/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/projects-cn/index.html",
+    "bytes": 163220,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/plugins/qi-blocks/assets/css/plugins/animate/animate.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/qi-blocks/assets/css/plugins/animate/animate.min.css",
+    "bytes": 71726,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/wp-content-copy-protection/assets/css/style.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/wp-content-copy-protection/assets/css/style.min.css",
+    "bytes": 167,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/8.4.5/swiper.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/8.4.5/swiper.min.css",
+    "bytes": 16470,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css",
+    "bytes": 44907,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css",
+    "bytes": 31211,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/theplus_elementor_addon/assets/css/main/pre-loader/plus-pre-loader.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/theplus_elementor_addon/assets/css/main/pre-loader/plus-pre-loader.min.css",
+    "bytes": 43830,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/themes/archicon/assets/css/main.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/themes/archicon/assets/css/main.min.css",
+    "bytes": 257787,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/assets/css/archicon-core.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/assets/css/archicon-core.min.css",
+    "bytes": 288873,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css",
+    "bytes": 280109,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/themes/archicon-child/style.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/themes/archicon-child/style.css",
+    "bytes": 219,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css",
+    "bytes": 19778,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/custom-pro-frontend-lite.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/custom-pro-frontend-lite.min.css",
+    "bytes": 11009,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-13862.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-13862.css",
+    "bytes": 7942,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/themes/archicon/style.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/themes/archicon/style.css",
+    "bytes": 209,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/plugins/elementor/assets/css/elementor.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/plugins/elementor/assets/css/elementor.min.css",
+    "bytes": 6318,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/themes/archicon/assets/css/grid.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/themes/archicon/assets/css/grid.min.css",
+    "bytes": 250995,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/custom-frontend-lite.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/custom-frontend-lite.min.css",
+    "bytes": 119087,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/global.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/global.css",
+    "bytes": 9686,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/theplus_elementor_addon/assets/js/main/pre-loader/plus-pre-loader-extra-transition.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/theplus_elementor_addon/assets/js/main/pre-loader/plus-pre-loader-extra-transition.min.js",
+    "bytes": 1674,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-14013.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-14013.css",
+    "bytes": 10349,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/theplus_elementor_addon/assets/js/main/pre-loader/plus-pre-loader.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/theplus_elementor_addon/assets/js/main/pre-loader/plus-pre-loader.min.js",
+    "bytes": 8338,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/h2arch-favicon-300x300.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/h2arch-favicon-300x300.png",
+    "bytes": 6663,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/h2arch-favicon-150x150.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/h2arch-favicon-150x150.png",
+    "bytes": 2568,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/wp-includes/js/jquery/jquery-migrate.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/jquery/jquery-migrate.min.js",
+    "bytes": 13424,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-includes/js/jquery/jquery.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/jquery/jquery.min.js",
+    "bytes": 89815,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_black-768x114.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_black-768x114.png",
+    "bytes": 10784,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_black-300x44.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_black-300x44.png",
+    "bytes": 3928,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_black-2048x303.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_black-2048x303.png",
+    "bytes": 35627,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_black-1024x151.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_black-1024x151.png",
+    "bytes": 14878,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_black.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_black.png",
+    "bytes": 34090,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/profile/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/profile/index.html",
+    "bytes": 140916,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_black-1536x227.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025_black-1536x227.png",
+    "bytes": 24526,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/contact/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/contact/index.html",
+    "bytes": 110920,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/那拉提2-300x169.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/那拉提2-300x169.jpg",
+    "bytes": 12540,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/recruit/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/recruit/index.html",
+    "bytes": 124897,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/那拉提2-768x432.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/那拉提2-768x432.jpg",
+    "bytes": 67945,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/portfolio-category/home-feature-projects/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/portfolio-category/home-feature-projects/index.html",
+    "bytes": 90679,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/portfolio-category/portfolio-feature-projects/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/portfolio-category/portfolio-feature-projects/index.html",
+    "bytes": 98101,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/那拉提2-1536x864.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/那拉提2-1536x864.jpg",
+    "bytes": 241864,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/那拉提2-1024x576.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/那拉提2-1024x576.jpg",
+    "bytes": 115559,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/那拉提2.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/那拉提2.jpg",
+    "bytes": 268001,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/10/r1-300x169.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/10/r1-300x169.jpg",
+    "bytes": 9858,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/portfolio-item/xinjiang-nalati-indigo-holiday-inn-express-hotel-2/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/portfolio-item/xinjiang-nalati-indigo-holiday-inn-express-hotel-2/index.html",
+    "bytes": 129612,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/10/r1-768x432.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/10/r1-768x432.jpg",
+    "bytes": 63270,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/10/r1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/10/r1.jpg",
+    "bytes": 234903,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/10/r1-1024x576.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/10/r1-1024x576.jpg",
+    "bytes": 109376,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/portfolio-item/st-regis-hotel-xian/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/portfolio-item/st-regis-hotel-xian/index.html",
+    "bytes": 123198,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/1.jpg",
+    "bytes": 166482,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/10/r1-1536x864.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/10/r1-1536x864.jpg",
+    "bytes": 231673,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/1-300x169.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/1-300x169.jpg",
+    "bytes": 12185,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/秦皇岛51-300x211.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/秦皇岛51-300x211.jpg",
+    "bytes": 15783,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/portfolio-item/resea-indigo-hotel-qinhuangdao/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/portfolio-item/resea-indigo-hotel-qinhuangdao/index.html",
+    "bytes": 128098,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/1-768x432.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/1-768x432.jpg",
+    "bytes": 59409,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/1-1536x864.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/1-1536x864.jpg",
+    "bytes": 186941,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/1-1024x576.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/1-1024x576.jpg",
+    "bytes": 96657,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/秦皇岛51-1024x720.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/秦皇岛51-1024x720.jpg",
+    "bytes": 140183,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/秦皇岛51.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/秦皇岛51.jpg",
+    "bytes": 166777,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦2-300x169.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦2-300x169.jpg",
+    "bytes": 10069,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/秦皇岛51-768x540.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/秦皇岛51-768x540.jpg",
+    "bytes": 88535,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦2-1024x576.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦2-1024x576.jpg",
+    "bytes": 75921,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/portfolio-item/hyatt-regency-hotel-shijia-zhuang/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/portfolio-item/hyatt-regency-hotel-shijia-zhuang/index.html",
+    "bytes": 121859,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦2-768x432.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦2-768x432.jpg",
+    "bytes": 46180,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦2.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦2.jpg",
+    "bytes": 142656,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦2-1536x864.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦2-1536x864.jpg",
+    "bytes": 155004,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/portfolio-item/crowne-plaza-hotel-hot-spring-center-qinhuangdao/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/portfolio-item/crowne-plaza-hotel-hot-spring-center-qinhuangdao/index.html",
+    "bytes": 121743,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/m1-300x169.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/m1-300x169.jpg",
+    "bytes": 10800,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平遥首图-300x169.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平遥首图-300x169.jpg",
+    "bytes": 11207,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/m1-768x432.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/m1-768x432.jpg",
+    "bytes": 59597,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/m1-1024x576.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/m1-1024x576.jpg",
+    "bytes": 106046,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平遥首图.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平遥首图.jpg",
+    "bytes": 149968,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/portfolio-item/melia-hotel-xi-xian-new-district-xian/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/portfolio-item/melia-hotel-xi-xian-new-district-xian/index.html",
+    "bytes": 121920,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/m1-1536x864.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/m1-1536x864.jpg",
+    "bytes": 229986,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/m1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/m1.jpg",
+    "bytes": 219415,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/强大2-300x163.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/11/强大2-300x163.jpg",
+    "bytes": 8650,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/强大2-1024x555.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/11/强大2-1024x555.jpg",
+    "bytes": 83374,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/强大2-768x416.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/11/强大2-768x416.jpg",
+    "bytes": 47126,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平遥首图-1024x576.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平遥首图-1024x576.jpg",
+    "bytes": 86926,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平遥首图-768x432.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平遥首图-768x432.jpg",
+    "bytes": 53303,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/portfolio-item/the-unbound-collection-by-hyatt-pingyao/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/portfolio-item/the-unbound-collection-by-hyatt-pingyao/index.html",
+    "bytes": 120865,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平遥首图-1536x864.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平遥首图-1536x864.jpg",
+    "bytes": 168868,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/强大2.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/11/强大2.jpg",
+    "bytes": 303572,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/阿1-300x169.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/阿1-300x169.jpg",
+    "bytes": 10865,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/阿1-1024x576.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/阿1-1024x576.jpg",
+    "bytes": 81916,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/强大2-1536x832.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/11/强大2-1536x832.jpg",
+    "bytes": 176923,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/阿1-768x432.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/阿1-768x432.jpg",
+    "bytes": 50144,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/阿1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/阿1.jpg",
+    "bytes": 146249,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/portfolio-item/anandi-hotel-an-ji-zhejiang-2/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/portfolio-item/anandi-hotel-an-ji-zhejiang-2/index.html",
+    "bytes": 120619,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/portfolio-item/mixed-use-project-indigo-hotel-shijiazhuang-qiangda/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/portfolio-item/mixed-use-project-indigo-hotel-shijiazhuang-qiangda/index.html",
+    "bytes": 123269,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/阿1-1536x864.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/阿1-1536x864.jpg",
+    "bytes": 157695,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/C7-300x169.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/C7-300x169.jpg",
+    "bytes": 14483,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/S5-300x225.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/S5-300x225.jpg",
+    "bytes": 9877,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/S5-1024x769.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/S5-1024x769.jpg",
+    "bytes": 72277,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/portfolio-item/shuangyue-bay-dusit-devarana-hotel-huizhou-2/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/portfolio-item/shuangyue-bay-dusit-devarana-hotel-huizhou-2/index.html",
+    "bytes": 123047,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/S5-768x577.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/S5-768x577.jpg",
+    "bytes": 45481,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/C7-1024x576.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/C7-1024x576.jpg",
+    "bytes": 130611,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/S5.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/S5.jpg",
+    "bytes": 117336,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/C7.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/C7.jpg",
+    "bytes": 296540,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/w9-300x169.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/w9-300x169.jpg",
+    "bytes": 12710,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/C7-768x432.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/C7-768x432.jpg",
+    "bytes": 77220,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/w9-1024x576.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/w9-1024x576.jpg",
+    "bytes": 127512,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/w9-768x432.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/w9-768x432.jpg",
+    "bytes": 73736,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/portfolio-item/cordis-hotel-kunshan-2/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/portfolio-item/cordis-hotel-kunshan-2/index.html",
+    "bytes": 121748,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/C7-1536x864.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/C7-1536x864.jpg",
+    "bytes": 273389,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/w9.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/w9.jpg",
+    "bytes": 269742,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/w9-1536x864.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/w9-1536x864.jpg",
+    "bytes": 269271,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor-pro/assets/css/widget-posts.min.css",
+    "bytes": 14340,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025-1024x151.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025-1024x151.png",
+    "bytes": 33590,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025-300x44.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025-300x44.png",
+    "bytes": 6625,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025-768x114.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025-768x114.png",
+    "bytes": 20831,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025-1536x227.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025-1536x227.png",
+    "bytes": 60034,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025-2048x303.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025-2048x303.png",
+    "bytes": 107119,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/r1-768x432.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/02/r1-768x432.jpg",
+    "bytes": 37352,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/r1-300x169.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/02/r1-300x169.jpg",
+    "bytes": 7783,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/portfolio-item/sofitel-yangshan-wuxi/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/portfolio-item/sofitel-yangshan-wuxi/index.html",
+    "bytes": 121297,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/r1-1536x864.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/02/r1-1536x864.jpg",
+    "bytes": 135677,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/portfolio-item/st-regis-hotel-sanya/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/portfolio-item/st-regis-hotel-sanya/index.html",
+    "bytes": 121225,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/r1-1024x576.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/02/r1-1024x576.jpg",
+    "bytes": 64424,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/r1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/02/r1.jpg",
+    "bytes": 234903,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-17376.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-17376.css",
+    "bytes": 2310,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-17382.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-17382.css",
+    "bytes": 2310,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/css/rs6.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/revslider/public/assets/css/rs6.css",
+    "bytes": 58260,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css",
+    "bytes": 18468,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/qi-blocks/assets/dist/main.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/qi-blocks/assets/dist/main.js",
+    "bytes": 15020,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js",
+    "bytes": 77776,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js",
+    "bytes": 415776,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-includes/js/hoverIntent.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/hoverIntent.min.js",
+    "bytes": 1499,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/wp-content-copy-protection/assets/js/script.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/wp-content-copy-protection/assets/js/script.min.js",
+    "bytes": 1281,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/assets/plugins/modernizr/modernizr.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/assets/plugins/modernizr/modernizr.js",
+    "bytes": 2729,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-includes/js/jquery/ui/core.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/jquery/ui/core.min.js",
+    "bytes": 21438,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/parallax-images/assets/js/plugins/jquery.parallax-scroll.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/qi-addons-for-elementor/inc/shortcodes/parallax-images/assets/js/plugins/jquery.parallax-scroll.js",
+    "bytes": 9143,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js",
+    "bytes": 28672,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/assets/plugins/gsap/gsap.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/assets/plugins/gsap/gsap.min.js",
+    "bytes": 65262,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-includes/js/jquery/ui/draggable.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/jquery/ui/draggable.min.js",
+    "bytes": 18321,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/assets/plugins/gsap/SplitText.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/assets/plugins/gsap/SplitText.min.js",
+    "bytes": 15590,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-includes/js/jquery/ui/mouse.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/jquery/ui/mouse.min.js",
+    "bytes": 3402,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-includes/js/jquery/ui/slider.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/jquery/ui/slider.min.js",
+    "bytes": 10728,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/assets/plugins/gsap/ScrollTrigger.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/assets/plugins/gsap/ScrollTrigger.min.js",
+    "bytes": 38076,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/themes/archicon/assets/js/main.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/themes/archicon/assets/js/main.min.js",
+    "bytes": 23477,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/assets/js/archicon-core.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/assets/js/archicon-core.min.js",
+    "bytes": 60856,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com": {
+    "ok": false,
+    "status": "301|text/html; charset=UTF-8",
+    "error": "curl: (47) Maximum (4) redirects followed\n"
+  },
+  "https://www.h2arch.com/wp-includes/js/jquery/jquery.ui.touch-punch.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/jquery/jquery.ui.touch-punch.js",
+    "bytes": 1179,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/themes/archicon/assets/plugins/appear/jquery.appear.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/themes/archicon/assets/plugins/appear/jquery.appear.js",
+    "bytes": 2069,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/themes/archicon/inc/justified-gallery/assets/js/plugins/jquery.justifiedGallery.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/themes/archicon/inc/justified-gallery/assets/js/plugins/jquery.justifiedGallery.min.js",
+    "bytes": 19285,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-includes/js/jquery/ui/tabs.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/jquery/ui/tabs.min.js",
+    "bytes": 11937,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-includes/js/imagesloaded.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/imagesloaded.min.js",
+    "bytes": 5629,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/qi-blocks/inc/masonry/assets/plugins/packery-mode.pkgd.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/qi-blocks/inc/masonry/assets/plugins/packery-mode.pkgd.min.js",
+    "bytes": 13624,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/qi-blocks/inc/masonry/assets/plugins/isotope.pkgd.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/qi-blocks/inc/masonry/assets/plugins/isotope.pkgd.min.js",
+    "bytes": 35284,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/8.4.5/swiper.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/8.4.5/swiper.min.js",
+    "bytes": 143662,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js",
+    "bytes": 6607,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-includes/js/dist/vendor/wp-polyfill.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/dist/vendor/wp-polyfill.min.js",
+    "bytes": 17823,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/js/frontend.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor/assets/js/frontend.min.js",
+    "bytes": 39972,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js",
+    "bytes": 4997,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js",
+    "bytes": 8171,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-includes/js/dist/hooks.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/dist/hooks.min.js",
+    "bytes": 4910,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js",
+    "bytes": 12198,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js",
+    "bytes": 28672,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js",
+    "bytes": 38282,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.min.js",
+    "bytes": 3878,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js",
+    "bytes": 5825,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-includes/js/dist/i18n.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/dist/i18n.min.js",
+    "bytes": 10230,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js",
+    "bytes": 25066,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/wp-content-copy-protection/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/wp-content-copy-protection/index.html",
+    "bytes": 95,
+    "kind": null,
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/plugins/elementor/assets/js/elementor.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/plugins/elementor/assets/js/elementor.min.js",
+    "bytes": 9494,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/": {
+    "ok": false,
+    "status": "403|text/html",
+    "error": ""
+  },
+  "https://fonts.googleapis.com/css?family=Space%20Grotesk%3A300%2C400%2C500%2C600%2C700%2C100%2C100i%2C200%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800%2C800i%2C900%7COpen%20Sans%3A300%2C400%7CRoboto%3A400&subset=latin-ext&display=swap": {
+    "ok": true,
+    "path": "site/fonts.googleapis.com/css/index.html-91c49ba69a1e.css",
+    "bytes": 1978,
+    "kind": "css",
+    "status": "200|text/css; charset=utf-8"
+  },
+  "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj62UXsqPMU.ttf": {
+    "ok": true,
+    "path": "site/fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj62UXsqPMU.ttf",
+    "bytes": 55776,
+    "kind": null,
+    "status": "200|font/ttf"
+  },
+  "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj4PVnsqPMU.ttf": {
+    "ok": true,
+    "path": "site/fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj4PVnsqPMU.ttf",
+    "bytes": 55704,
+    "kind": null,
+    "status": "200|font/ttf"
+  },
+  "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj42VnsqPMU.ttf": {
+    "ok": true,
+    "path": "site/fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj42VnsqPMU.ttf",
+    "bytes": 55748,
+    "kind": null,
+    "status": "200|font/ttf"
+  },
+  "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUXsqPMU.ttf": {
+    "ok": true,
+    "path": "site/fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUXsqPMU.ttf",
+    "bytes": 55740,
+    "kind": null,
+    "status": "200|font/ttf"
+  },
+  "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7aUXsqPMU.ttf": {
+    "ok": true,
+    "path": "site/fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7aUXsqPMU.ttf",
+    "bytes": 55804,
+    "kind": null,
+    "status": "200|font/ttf"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor-pro/assets/": {
+    "ok": false,
+    "status": "403|text/html",
+    "error": ""
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/assets/dummy.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/revslider/public/assets/assets/dummy.png",
+    "bytes": 68,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/cn/portfolio-category/portfolio-feature-projects-cn/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-category/portfolio-feature-projects-cn/index.html",
+    "bytes": 98113,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/cn/portfolio-category/home-feature-projects-cn/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-category/home-feature-projects-cn/index.html",
+    "bytes": 90904,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/resea-indigo-hotel-qinhuangdao-cn/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/resea-indigo-hotel-qinhuangdao-cn/index.html",
+    "bytes": 129334,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/cn/recruit-cn/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/recruit-cn/index.html",
+    "bytes": 125362,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor-pro/modules/lottie/assets/animations/default.json": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor-pro/modules/lottie/assets/animations/default.json",
+    "bytes": 112811,
+    "kind": null,
+    "status": "200|application/json"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/crowne-plaza-hotel-hot-spring-center-qinhuangdao-cn/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/crowne-plaza-hotel-hot-spring-center-qinhuangdao-cn/index.html",
+    "bytes": 121805,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-16105.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-16105.css",
+    "bytes": 13515,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/hyatt-regency-hotel-shijia-zhuang-cn/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/hyatt-regency-hotel-shijia-zhuang-cn/index.html",
+    "bytes": 123230,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/cn/contact-cn/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/contact-cn/index.html",
+    "bytes": 111822,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/xinjiang-nalati-indigo-holiday-inn-express-hotel/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/xinjiang-nalati-indigo-holiday-inn-express-hotel/index.html",
+    "bytes": 130007,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/cn/profile-cn/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/profile-cn/index.html",
+    "bytes": 140945,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/cn/home-cn/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/home-cn/index.html",
+    "bytes": 147623,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/123456-150x150.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/123456-150x150.jpg",
+    "bytes": 5039,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/123456-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/123456-650x650.jpg",
+    "bytes": 57081,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/1-1300x1080.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/1-1300x1080.jpg",
+    "bytes": 186359,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/123456-700x700.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/123456-700x700.jpg",
+    "bytes": 65698,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/那拉提2-1300x1080.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/那拉提2-1300x1080.jpg",
+    "bytes": 235244,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/cn/%e6%96%b0%e7%96%86%e5%8d%8e%e7%be%8e%e8%83%9c%e5%9c%b0%e9%82%a3%e6%8b%89%e6%8f%90%e8%8b%b1%e8%bf%aa%e6%a0%bc%e6%99%ba%e9%80%89%e5%81%87%e6%97%a5%e9%85%92%e5%ba%972025%e5%b9%b47%e6%9c%881%e6%97%a5/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/新疆华美胜地那拉提英迪格智选假日酒店2025年7月1日/index.html",
+    "bytes": 99917,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦2-1300x1080.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦2-1300x1080.jpg",
+    "bytes": 163553,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/秦皇岛51-1300x1080.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/秦皇岛51-1300x1080.jpg",
+    "bytes": 241755,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/06/640-1-1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/06/640-1-1-650x650.jpg",
+    "bytes": 59837,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/06/640-1-1-150x150.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/06/640-1-1-150x150.jpg",
+    "bytes": 4792,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/cn/2025/07/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/2025/07/index.html",
+    "bytes": 84063,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/06/640-1-1-700x700.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/06/640-1-1-700x700.jpg",
+    "bytes": 67340,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/cn/2024/06/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/2024/06/index.html",
+    "bytes": 84343,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/cn/h2%e6%96%b9%e6%a1%88%e8%ae%be%e8%ae%a1-%e5%b8%8c%e5%b0%94%e9%a1%bf%e9%9b%86%e5%9b%a2%e4%b8%a4%e5%a4%a7%e5%93%81%e7%89%8c%e7%ad%be%e7%ba%a6%e8%90%bd%e5%9c%b0%e4%b8%8a%e6%b5%b7%e5%9b%bd%e9%99%85-2/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/h2方案设计-希尔顿集团两大品牌签约落地上海国际-2/index.html",
+    "bytes": 100106,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/cn/%e8%8b%b1%e8%bf%aa%e6%a0%bc%e5%8c%97%e6%88%b4%e6%b2%b3%e5%a6%82%e6%98%af%e6%b5%b7%e9%85%92%e5%ba%972024%e5%b9%b46%e6%9c%8825%e6%97%a5%e7%9b%9b%e5%a4%a7%e5%bc%80%e4%b8%9a/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/英迪格北戴河如是海酒店2024年6月25日盛大开业/index.html",
+    "bytes": 99016,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/05/G2-150x150.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/05/G2-150x150.jpg",
+    "bytes": 5613,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/08/45a8f7dd6df8b02bcdb9aa483fd18cc1-150x150.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/08/45a8f7dd6df8b02bcdb9aa483fd18cc1-150x150.png",
+    "bytes": 39869,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/cn/2024/05/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/2024/05/index.html",
+    "bytes": 84956,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/cn/%e6%96%b0%e7%96%86%e9%82%a3%e6%8b%89%e6%8f%90%e5%8d%8e%e7%be%8e%e8%83%9c%e5%9c%b0%e8%8b%b1%e8%bf%aa%e6%a0%bc%e9%85%92%e5%ba%97-2023/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/新疆那拉提华美胜地英迪格酒店-2023/index.html",
+    "bytes": 98840,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/05/G2-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/05/G2-650x650.jpg",
+    "bytes": 58110,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/05/G2-700x700.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/05/G2-700x700.jpg",
+    "bytes": 65554,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/08/45a8f7dd6df8b02bcdb9aa483fd18cc1-650x650.png": {
+    "ok": false,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/08/45a8f7dd6df8b02bcdb9aa483fd18cc1-650x650.png",
+    "bytes": 497430,
+    "kind": null,
+    "status": "integrity-failure",
+    "error": "Local integrity check failed; truncated or missing file"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/秦皇岛1-41-150x150.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/秦皇岛1-41-150x150.jpg",
+    "bytes": 7699,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/秦皇岛1-41-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/秦皇岛1-41-650x650.jpg",
+    "bytes": 100179,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/cn/2023/08/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/2023/08/index.html",
+    "bytes": 85038,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/cn/%e5%a6%82%e6%98%af%e6%b5%b7%e8%8b%b1%e8%bf%aa%e6%a0%bc%e9%85%92%e5%ba%97%e5%bb%ba%e8%ae%be%e4%b8%ad/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/如是海英迪格酒店建设中/index.html",
+    "bytes": 73039,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/cn/2022/07/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/2022/07/index.html",
+    "bytes": 73621,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/秦皇岛1-41-700x700.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/秦皇岛1-41-700x700.jpg",
+    "bytes": 112719,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/08/45a8f7dd6df8b02bcdb9aa483fd18cc1-700x700.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/08/45a8f7dd6df8b02bcdb9aa483fd18cc1-700x700.png",
+    "bytes": 566923,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/cn/category/%e6%9c%80%e6%96%b0%e6%b6%88%e6%81%af/": {
+    "ok": false,
+    "status": "301|text/html; charset=UTF-8",
+    "error": "curl: (47) Maximum (4) redirects followed\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/秦皇岛5-150x150.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/秦皇岛5-150x150.jpg",
+    "bytes": 7897,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css",
+    "bytes": 11256,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-includes/js/mediaelement/wp-mediaelement.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/mediaelement/wp-mediaelement.min.css",
+    "bytes": 4186,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/秦皇岛5-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/秦皇岛5-650x650.jpg",
+    "bytes": 85782,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/cn/%e6%b4%b2%e8%87%b3%e5%a5%a2%e9%80%89%e5%8c%97%e6%88%b4%e6%b2%b3%e5%a6%82%e6%98%af%e6%b5%b7%e9%85%92%e5%ba%97/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/洲至奢选北戴河如是海酒店/index.html",
+    "bytes": 102576,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/cn/2026/09/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/2026/09/index.html",
+    "bytes": 83708,
+    "kind": "html",
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/秦皇岛5-700x700.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/秦皇岛5-700x700.jpg",
+    "bytes": 95708,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/mediaelement/mediaelement-migrate.min.js",
+    "bytes": 1191,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-includes/js/mediaelement/renderers/vimeo.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/mediaelement/renderers/vimeo.min.js",
+    "bytes": 6464,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-includes/js/mediaelement/wp-mediaelement.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/mediaelement/wp-mediaelement.min.js",
+    "bytes": 1107,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js",
+    "bytes": 158005,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-brands-400.eot": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-brands-400.eot",
+    "bytes": 136822,
+    "kind": null,
+    "status": "200|application/vnd.ms-fontobject"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-brands-400.woff": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-brands-400.woff",
+    "bytes": 92136,
+    "kind": null,
+    "status": "200|font/woff"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-brands-400.woff2": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-brands-400.woff2",
+    "bytes": 78472,
+    "kind": null,
+    "status": "200|font/woff2"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/05-portfolio-003.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/05-portfolio-003.jpg",
+    "bytes": 479516,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-regular-400.woff2": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-regular-400.woff2",
+    "bytes": 13588,
+    "kind": null,
+    "status": "200|font/woff2"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-regular-400.ttf": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-regular-400.ttf",
+    "bytes": 34052,
+    "kind": null,
+    "status": "200|application/x-font-ttf"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-regular-400.eot": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-regular-400.eot",
+    "bytes": 34350,
+    "kind": null,
+    "status": "200|application/vnd.ms-fontobject"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-regular-400.woff": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-regular-400.woff",
+    "bytes": 16776,
+    "kind": null,
+    "status": "200|font/woff"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-brands-400.ttf": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-brands-400.ttf",
+    "bytes": 136516,
+    "kind": null,
+    "status": "200|application/x-font-ttf"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-regular-400.svg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-regular-400.svg",
+    "bytes": 144714,
+    "kind": null,
+    "status": "200|image/svg+xml"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-solid-900.eot": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-solid-900.eot",
+    "bytes": 204814,
+    "kind": null,
+    "status": "200|application/vnd.ms-fontobject"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-brands-400.svg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-brands-400.svg",
+    "bytes": 747545,
+    "kind": null,
+    "status": "200|image/svg+xml"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-solid-900.woff2": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-solid-900.woff2",
+    "bytes": 80252,
+    "kind": null,
+    "status": "200|font/woff2"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/%E7%A7%A6%E7%9A%87%E5%B2%9B51.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/秦皇岛51.jpg",
+    "bytes": 166777,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-18143.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-18143.css",
+    "bytes": 10349,
+    "kind": "css",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/st-regis-hotel-xian-cn/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/st-regis-hotel-xian-cn/index.html",
+    "bytes": 122765,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/melia-hotel-xi-xian-new-district-xian-cn/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/melia-hotel-xi-xian-new-district-xian-cn/index.html",
+    "bytes": 121708,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/the-unbound-collection-by-hyatt-pingyao-cn/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/the-unbound-collection-by-hyatt-pingyao-cn/index.html",
+    "bytes": 122206,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/mixed-use-project-indigo-hotel-shijiazhuang-qiangda-cn/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/mixed-use-project-indigo-hotel-shijiazhuang-qiangda-cn/index.html",
+    "bytes": 123505,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/%e8%bf%9c%e6%b4%b2-%c2%b7-%e5%ae%89%e5%90%89%e9%98%bf%e7%ba%b3%e8%bf%aa%e9%85%92%e5%ba%97/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/远洲-·-安吉阿纳迪酒店/index.html",
+    "bytes": 120785,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/elegant-icons/assets/fonts/ElegantIcons.woff": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/elegant-icons/assets/fonts/ElegantIcons.woff",
+    "bytes": 63664,
+    "kind": null,
+    "status": "200|font/woff"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/shuangyue-bay-dusit-devarana-hotel-huizhou/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/shuangyue-bay-dusit-devarana-hotel-huizhou/index.html",
+    "bytes": 122948,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/cordis-hotelkunshan/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/cordis-hotelkunshan/index.html",
+    "bytes": 122027,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/wuxi-yangshanhu-sofitel-hotel/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/wuxi-yangshanhu-sofitel-hotel/index.html",
+    "bytes": 122610,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/sanya-st-regis-hotel/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/sanya-st-regis-hotel/index.html",
+    "bytes": 121133,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-18332.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-18332.css",
+    "bytes": 6717,
+    "kind": "css",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-18334.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-18334.css",
+    "bytes": 2310,
+    "kind": "css",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/elegant-icons/assets/fonts/ElegantIcons.ttf": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/elegant-icons/assets/fonts/ElegantIcons.ttf",
+    "bytes": 59388,
+    "kind": null,
+    "status": "200|application/x-font-ttf"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/elegant-icons/assets/fonts/ElegantIcons.eot": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/elegant-icons/assets/fonts/ElegantIcons.eot",
+    "bytes": 70159,
+    "kind": null,
+    "status": "200|application/vnd.ms-fontobject"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-solid-900.ttf": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-solid-900.ttf",
+    "bytes": 204528,
+    "kind": null,
+    "status": "200|application/x-font-ttf"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-solid-900.woff": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-solid-900.woff",
+    "bytes": 104280,
+    "kind": null,
+    "status": "200|font/woff"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/elegant-icons/assets/fonts/ElegantIcons.svg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/elegant-icons/assets/fonts/ElegantIcons.svg",
+    "bytes": 277297,
+    "kind": null,
+    "status": "200|image/svg+xml"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-solid-900.svg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/inc/icons/font-awesome/assets/webfonts/fa-solid-900.svg",
+    "bytes": 917575,
+    "kind": null,
+    "status": "200|image/svg+xml"
+  },
+  "https://www.h2arch.com/wp-content/themes/archicon/assets/img/unmute.svg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/themes/archicon/assets/img/unmute.svg",
+    "bytes": 646,
+    "kind": null,
+    "status": "200|image/svg+xml"
+  },
+  "https://www.h2arch.com/wp-content/themes/archicon/assets/img/pause.svg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/themes/archicon/assets/img/pause.svg",
+    "bytes": 405,
+    "kind": null,
+    "status": "200|image/svg+xml"
+  },
+  "https://www.h2arch.com/wp-content/themes/archicon/assets/img/fullscreen.svg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/themes/archicon/assets/img/fullscreen.svg",
+    "bytes": 416,
+    "kind": null,
+    "status": "200|image/svg+xml"
+  },
+  "https://www.h2arch.com/wp-content/themes/archicon/assets/img/play.svg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/themes/archicon/assets/img/play.svg",
+    "bytes": 259,
+    "kind": null,
+    "status": "200|image/svg+xml"
+  },
+  "https://www.h2arch.com/wp-content/themes/archicon/assets/img/mute.svg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/themes/archicon/assets/img/mute.svg",
+    "bytes": 544,
+    "kind": null,
+    "status": "200|image/svg+xml"
+  },
+  "https://www.h2arch.com/wp-content/themes/archicon/assets/img/unfullscreen.svg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/themes/archicon/assets/img/unfullscreen.svg",
+    "bytes": 414,
+    "kind": null,
+    "status": "200|image/svg+xml"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2",
+    "bytes": 96924,
+    "kind": null,
+    "status": "200|font/woff2"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot",
+    "bytes": 218588,
+    "kind": null,
+    "status": "200|application/vnd.ms-fontobject"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-regular.woff2": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-regular.woff2",
+    "bytes": 16740,
+    "kind": null,
+    "status": "200|font/woff2"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-regular.eot": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-regular.eot",
+    "bytes": 18276,
+    "kind": null,
+    "status": "200|application/vnd.ms-fontobject"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff",
+    "bytes": 28672,
+    "kind": null,
+    "status": "200|font/woff"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-regular.woff": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-regular.woff",
+    "bytes": 20712,
+    "kind": null,
+    "status": "200|font/woff"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf",
+    "bytes": 28672,
+    "kind": null,
+    "status": "200|application/x-font-ttf"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg",
+    "bytes": 330200,
+    "kind": null,
+    "status": "200|image/svg+xml"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-regular.ttf": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-regular.ttf",
+    "bytes": 31380,
+    "kind": null,
+    "status": "200|application/x-font-ttf"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-500.woff2": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-500.woff2",
+    "bytes": 16808,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-500.woff": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-500.woff",
+    "bytes": 20780,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-500.ttf": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-500.ttf",
+    "bytes": 31408,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-500.svg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-500.svg",
+    "bytes": 59,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-300.svg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-300.svg",
+    "bytes": 59,
+    "kind": null,
+    "status": "200|image/svg+xml"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-regular.svg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-regular.svg",
+    "bytes": 59,
+    "kind": null,
+    "status": "200|image/svg+xml"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-300.ttf": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-300.ttf",
+    "bytes": 31436,
+    "kind": null,
+    "status": "200|application/x-font-ttf"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-300.woff2": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-300.woff2",
+    "bytes": 16748,
+    "kind": null,
+    "status": "200|font/woff2"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-500.eot": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-500.eot",
+    "bytes": 18347,
+    "kind": null,
+    "status": "200|application/vnd.ms-fontobject"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-300.eot": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-300.eot",
+    "bytes": 18311,
+    "kind": null,
+    "status": "200|application/vnd.ms-fontobject"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-300.woff": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-300.woff",
+    "bytes": 20756,
+    "kind": null,
+    "status": "200|font/woff"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-600.svg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-600.svg",
+    "bytes": 59,
+    "kind": null,
+    "status": "200|image/svg+xml"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-700.ttf": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-700.ttf",
+    "bytes": 31420,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-700.svg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-700.svg",
+    "bytes": 59,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-800.eot": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-800.eot",
+    "bytes": 18220,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-800.woff2": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-800.woff2",
+    "bytes": 16696,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-800.woff": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-800.woff",
+    "bytes": 20664,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-800.ttf": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-800.ttf",
+    "bytes": 31636,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-800.svg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-800.svg",
+    "bytes": 59,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/h7-img-01rr.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/h7-img-01rr.jpg",
+    "bytes": 980954,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-14497.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-14497.css",
+    "bytes": 51812,
+    "kind": "css",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙31-1-1024x683.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙31-1-1024x683.jpg",
+    "bytes": 154267,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙31-1-300x200.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙31-1-300x200.jpg",
+    "bytes": 17174,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙31-1-768x512.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙31-1-768x512.jpg",
+    "bytes": 92241,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙31-1-1536x1024.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙31-1-1536x1024.jpg",
+    "bytes": 305106,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙31-1-2048x1366.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙31-1-2048x1366.jpg",
+    "bytes": 483499,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/模型空间1-1024x683.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/模型空间1-1024x683.jpg",
+    "bytes": 71274,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/模型空间1-300x200.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/模型空间1-300x200.jpg",
+    "bytes": 9950,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/模型空间1-768x512.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/模型空间1-768x512.jpg",
+    "bytes": 43474,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/模型空间1-1536x1024.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/模型空间1-1536x1024.jpg",
+    "bytes": 150206,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/模型空间1-2048x1365.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/模型空间1-2048x1365.jpg",
+    "bytes": 260040,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/未标题-1-1024x683.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/11/未标题-1-1024x683.jpg",
+    "bytes": 80512,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/未标题-1-300x200.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/11/未标题-1-300x200.jpg",
+    "bytes": 11806,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/未标题-1-768x512.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/11/未标题-1-768x512.jpg",
+    "bytes": 50314,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/未标题-1-1536x1024.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/11/未标题-1-1536x1024.jpg",
+    "bytes": 158318,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/未标题-1-2048x1366.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/11/未标题-1-2048x1366.jpg",
+    "bytes": 251545,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-600.eot": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-600.eot",
+    "bytes": 18279,
+    "kind": null,
+    "status": "200|application/vnd.ms-fontobject"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-700.woff2": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-700.woff2",
+    "bytes": 16372,
+    "kind": null,
+    "status": "200|font/woff2"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-700.woff": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-700.woff",
+    "bytes": 20172,
+    "kind": null,
+    "status": "200|font/woff"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-700.eot": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-700.eot",
+    "bytes": 17850,
+    "kind": null,
+    "status": "200|application/vnd.ms-fontobject"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-600.woff": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-600.woff",
+    "bytes": 20672,
+    "kind": null,
+    "status": "200|font/woff"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-600.woff2": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-600.woff2",
+    "bytes": 16756,
+    "kind": null,
+    "status": "200|font/woff2"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-600.ttf": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-600.ttf",
+    "bytes": 31416,
+    "kind": null,
+    "status": "200|application/x-font-ttf"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙21-200x300.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙21-200x300.jpg",
+    "bytes": 12315,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙21-1-300x200.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙21-1-300x200.jpg",
+    "bytes": 13663,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙21-1-1024x683.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙21-1-1024x683.jpg",
+    "bytes": 86315,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙21-1-1536x1024.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙21-1-1536x1024.jpg",
+    "bytes": 157586,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙21-1-768x512.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙21-1-768x512.jpg",
+    "bytes": 55693,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙21-683x1024.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙21-683x1024.jpg",
+    "bytes": 96953,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙21-768x1152.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙21-768x1152.jpg",
+    "bytes": 117371,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙21-1-2048x1366.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙21-1-2048x1366.jpg",
+    "bytes": 243618,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙1-副本1-200x300.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙1-副本1-200x300.jpg",
+    "bytes": 13967,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙1-副本1-683x1024.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙1-副本1-683x1024.jpg",
+    "bytes": 113093,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙21-1024x1536.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙21-1024x1536.jpg",
+    "bytes": 190076,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙1-副本1-768x1152.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙1-副本1-768x1152.jpg",
+    "bytes": 136371,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙21-1365x2048.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙21-1365x2048.jpg",
+    "bytes": 303777,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙1-副本1-1024x1536.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙1-副本1-1024x1536.jpg",
+    "bytes": 215652,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙1-副本1-1365x2048.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙1-副本1-1365x2048.jpg",
+    "bytes": 338551,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙21-scaled.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙21-scaled.jpg",
+    "bytes": 427088,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-16079.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-16079.css",
+    "bytes": 13694,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/12/Arrow.svg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2022/12/Arrow.svg",
+    "bytes": 896,
+    "kind": null,
+    "status": "200|image/svg+xml"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js",
+    "bytes": 15347,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css",
+    "bytes": 3303,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/11571c758edf6bc3e2f3e9286480df61-scaled.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/11571c758edf6bc3e2f3e9286480df61-scaled.jpg",
+    "bytes": 448782,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/会议室1-1.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/会议室1-1.png",
+    "bytes": 603621,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/09/沙龙1-副本1-scaled.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/09/沙龙1-副本1-scaled.jpg",
+    "bytes": 472077,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/h2_map_r-300x203.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/h2_map_r-300x203.jpg",
+    "bytes": 10897,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-15885.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-15885.css",
+    "bytes": 7208,
+    "kind": "css",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/h2_map_r-1024x694.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/h2_map_r-1024x694.jpg",
+    "bytes": 79775,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/h2_map_r-768x521.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/h2_map_r-768x521.jpg",
+    "bytes": 50832,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/h2_map_r.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/h2_map_r.jpg",
+    "bytes": 427134,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/%E9%82%A3%E6%8B%89%E6%8F%902.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/那拉提2.jpg",
+    "bytes": 268001,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/assets/plugins/magnific-popup/magnific-popup.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/assets/plugins/magnific-popup/magnific-popup.css",
+    "bytes": 6940,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css",
+    "bytes": 17222,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/custom-widget-icon-list.min.css",
+    "bytes": 9900,
+    "kind": "css",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.js",
+    "bytes": 43584,
+    "kind": "js",
+    "status": "200|application/javascript"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/05/h2_logo_2025.png",
+    "bytes": 49650,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/h2_map_r-1536x1041.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/h2_map_r-1536x1041.jpg",
+    "bytes": 146053,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/12-1024x661.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/12-1024x661.jpg",
+    "bytes": 89623,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/h2_map_r-2048x1389.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/h2_map_r-2048x1389.jpg",
+    "bytes": 219538,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/10/20230928-atmosphere": {
+    "ok": false,
+    "status": "301|text/html; charset=UTF-8",
+    "error": "curl: (47) Maximum (4) redirects followed\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-21644.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-21644.css",
+    "bytes": 18843,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/那拉提11.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/那拉提11.jpg",
+    "bytes": 16565,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/nalati.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/nalati.jpg",
+    "bytes": 254170,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/x2.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/x2.jpg",
+    "bytes": 424061,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/x5.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/x5.jpg",
+    "bytes": 334626,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/那拉提鸟瞰图.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/那拉提鸟瞰图.jpg",
+    "bytes": 390217,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/20240117那拉提视频.mp4": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/20240117那拉提视频.mp4",
+    "bytes": 7313628,
+    "kind": null,
+    "status": "200|video/mp4"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/x3.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/x3.jpg",
+    "bytes": 203685,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/x4.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/x4.jpg",
+    "bytes": 199492,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/x6.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/x6.jpg",
+    "bytes": 255412,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/f347948dbacc931d3f9bc73e0178b23-scaled.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/f347948dbacc931d3f9bc73e0178b23-scaled.jpg",
+    "bytes": 350015,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/123-1-scaled.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/123-1-scaled.jpg",
+    "bytes": 323584,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/18d23651949b97f4c602f6479806b63-scaled.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/18d23651949b97f4c602f6479806b63-scaled.jpg",
+    "bytes": 609183,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/plugins/archicon-core/assets/plugins/magnific-popup/jquery.magnific-popup.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/archicon-core/assets/plugins/magnific-popup/jquery.magnific-popup.min.js",
+    "bytes": 20216,
+    "kind": "js",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/39771f80529c3445f7a9d70a2b6f1c7-scaled.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/39771f80529c3445f7a9d70a2b6f1c7-scaled.jpg",
+    "bytes": 639374,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/x2-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/x2-650x650.jpg",
+    "bytes": 114745,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/nalati-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/nalati-650x650.jpg",
+    "bytes": 78135,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/926707f86936fd2f44b26588c7e282f.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/926707f86936fd2f44b26588c7e282f.jpg",
+    "bytes": 225280,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/7c07e9afbff0a22b0ba5c00e8c98e72.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/7c07e9afbff0a22b0ba5c00e8c98e72.jpg",
+    "bytes": 319153,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/511f6b1b93810eee5dd63d85c379046.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/511f6b1b93810eee5dd63d85c379046.jpg",
+    "bytes": 258634,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/589954034fccf47eef1dedf6e3171cf.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/589954034fccf47eef1dedf6e3171cf.jpg",
+    "bytes": 192512,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/fed7e7f936e6bfda43a5a315ed2c5d0.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/fed7e7f936e6bfda43a5a315ed2c5d0.jpg",
+    "bytes": 241664,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/9815e4656a65c4727f61909d1da7f19-scaled.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/9815e4656a65c4727f61909d1da7f19-scaled.jpg",
+    "bytes": 692070,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/x3-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/x3-650x650.jpg",
+    "bytes": 71871,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/x5-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/x5-650x650.jpg",
+    "bytes": 114793,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/123-1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/123-1-650x650.jpg",
+    "bytes": 63804,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/39771f80529c3445f7a9d70a2b6f1c7-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/39771f80529c3445f7a9d70a2b6f1c7-650x650.jpg",
+    "bytes": 63995,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/x4-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/x4-650x650.jpg",
+    "bytes": 59743,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/x6-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/x6-650x650.jpg",
+    "bytes": 89865,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/那拉提鸟瞰图-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/那拉提鸟瞰图-650x650.jpg",
+    "bytes": 113243,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/18d23651949b97f4c602f6479806b63-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/18d23651949b97f4c602f6479806b63-650x650.jpg",
+    "bytes": 64887,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/index.html",
+    "bytes": 95,
+    "kind": null,
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/01-portfolio-003.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/01-portfolio-003.jpg",
+    "bytes": 438415,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-19062.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-19062.css",
+    "bytes": 18638,
+    "kind": "css",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/10/西安瑞吉_2_1_1.mp4": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/10/西安瑞吉_2_1_1.mp4",
+    "bytes": 6073144,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/西安瑞吉.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/西安瑞吉.jpg",
+    "bytes": 622976,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/01-portfolio-001.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/01-portfolio-001.jpg",
+    "bytes": 679103,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/s10-1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/s10-1.jpg",
+    "bytes": 164012,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/s11-1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/s11-1.jpg",
+    "bytes": 146181,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/10/r3.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/10/r3.jpg",
+    "bytes": 153212,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/10/r6.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/10/r6.jpg",
+    "bytes": 72862,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/10/r5.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/10/r5.jpg",
+    "bytes": 131228,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/10/r4.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/10/r4.jpg",
+    "bytes": 77824,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/西安瑞吉4.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/西安瑞吉4.jpg",
+    "bytes": 212347,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/X7.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/X7.png",
+    "bytes": 3463714,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/01-portfolio-001-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/01-portfolio-001-650x650.jpg",
+    "bytes": 103927,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/s10-1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/s10-1-650x650.jpg",
+    "bytes": 82907,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/s11-1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/s11-1-650x650.jpg",
+    "bytes": 54641,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/10/r3-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/10/r3-650x650.jpg",
+    "bytes": 54945,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/10/r6-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/10/r6-650x650.jpg",
+    "bytes": 29722,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/10/r5-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/10/r5-650x650.jpg",
+    "bytes": 45988,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/10/r4-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/10/r4-650x650.jpg",
+    "bytes": 74507,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/西安瑞吉4-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/西安瑞吉4-650x650.jpg",
+    "bytes": 82504,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/X7-650x650.png": {
+    "ok": false,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/X7-650x650.png",
+    "bytes": 602112,
+    "kind": null,
+    "status": "integrity-failure",
+    "error": "Local integrity check failed; truncated or missing file"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/f347948dbacc931d3f9bc73e0178b23-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/f347948dbacc931d3f9bc73e0178b23-650x650.jpg",
+    "bytes": 48184,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/511f6b1b93810eee5dd63d85c379046-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/511f6b1b93810eee5dd63d85c379046-650x650.jpg",
+    "bytes": 58589,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/9815e4656a65c4727f61909d1da7f19-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/9815e4656a65c4727f61909d1da7f19-650x650.jpg",
+    "bytes": 67493,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/926707f86936fd2f44b26588c7e282f-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/926707f86936fd2f44b26588c7e282f-650x650.jpg",
+    "bytes": 54518,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/fed7e7f936e6bfda43a5a315ed2c5d0-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/fed7e7f936e6bfda43a5a315ed2c5d0-650x650.jpg",
+    "bytes": 62726,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/589954034fccf47eef1dedf6e3171cf-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/589954034fccf47eef1dedf6e3171cf-650x650.jpg",
+    "bytes": 69705,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/7c07e9afbff0a22b0ba5c00e8c98e72-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/07/7c07e9afbff0a22b0ba5c00e8c98e72-650x650.jpg",
+    "bytes": 69248,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-19086.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-19086.css",
+    "bytes": 18842,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/秦皇岛如是海5.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/秦皇岛如是海5.jpg",
+    "bytes": 124110,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/1—44.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/1—44.jpg",
+    "bytes": 224347,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/04/实6-1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/04/实6-1.jpg",
+    "bytes": 278578,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/04/实2-1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/04/实2-1.jpg",
+    "bytes": 587740,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/04/实4-1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/04/实4-1.jpg",
+    "bytes": 278488,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/04/实景图片1-1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/04/实景图片1-1.jpg",
+    "bytes": 441736,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/04/实3-1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/04/实3-1.jpg",
+    "bytes": 136559,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/04/实1-1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/04/实1-1.jpg",
+    "bytes": 255529,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/04/实5-1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/04/实5-1.jpg",
+    "bytes": 196144,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/04/实7-1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/04/实7-1.jpg",
+    "bytes": 288231,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/1—41-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/1—41-650x650.jpg",
+    "bytes": 72793,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/秦皇岛如是海.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/秦皇岛如是海.jpg",
+    "bytes": 14479,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/1-43.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/1-43.jpg",
+    "bytes": 272467,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/1—41.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/1—41.jpg",
+    "bytes": 185784,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/1-42.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/1-42.jpg",
+    "bytes": 269179,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/1—45.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/1—45.jpg",
+    "bytes": 259456,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/1—46.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/1—46.jpg",
+    "bytes": 295071,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/20220123-秦皇岛动画-1G_1_1_1_1.mp4": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/20220123-秦皇岛动画-1G_1_1_1_1.mp4",
+    "bytes": 6087313,
+    "kind": null,
+    "status": "200|video/mp4"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/04/实2-1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/04/实2-1-650x650.jpg",
+    "bytes": 119553,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/04/实4-1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/04/实4-1-650x650.jpg",
+    "bytes": 69689,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/04/实景图片1-1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/04/实景图片1-1-650x650.jpg",
+    "bytes": 89845,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/04/实3-1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/04/实3-1-650x650.jpg",
+    "bytes": 44001,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/04/实1-1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/04/实1-1-650x650.jpg",
+    "bytes": 44466,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/04/实5-1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/04/实5-1-650x650.jpg",
+    "bytes": 34172,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/04/实7-1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/04/实7-1-650x650.jpg",
+    "bytes": 59615,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/05-portfolio-001.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/05-portfolio-001.jpg",
+    "bytes": 130550,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/1—45-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/1—45-650x650.jpg",
+    "bytes": 95123,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/0907石家庄凯悦酒店设计（big）_1_1_7_1.mp4": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/0907石家庄凯悦酒店设计（big）_1_1_7_1.mp4",
+    "bytes": 5213811,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦-1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦-1.jpg",
+    "bytes": 12056,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/如是海泳池.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/11/如是海泳池.jpg",
+    "bytes": 190100,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦1.jpg",
+    "bytes": 73019,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/秦皇岛如是海5-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/秦皇岛如是海5-650x650.jpg",
+    "bytes": 56434,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/by051.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/11/by051.jpg",
+    "bytes": 339968,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/凯悦9.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/凯悦9.jpg",
+    "bytes": 231584,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦3.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦3.jpg",
+    "bytes": 335618,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/如是海泳池-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/11/如是海泳池-650x650.jpg",
+    "bytes": 76207,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦6.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦6.jpg",
+    "bytes": 252254,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦2-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦2-650x650.jpg",
+    "bytes": 54646,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦1-650x650.jpg",
+    "bytes": 41730,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/by051-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/11/by051-650x650.jpg",
+    "bytes": 86046,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦3-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦3-650x650.jpg",
+    "bytes": 110083,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦6-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦6-650x650.jpg",
+    "bytes": 87618,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/凯悦9-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/凯悦9-650x650.jpg",
+    "bytes": 77903,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/04-portfolio-001.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/04-portfolio-001.jpg",
+    "bytes": 425055,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-19098.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-19098.css",
+    "bytes": 18859,
+    "kind": "css",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/20220524-秦皇岛5号地-2G_1_1_1_1.mp4": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/20220524-秦皇岛5号地-2G_1_1_1_1.mp4",
+    "bytes": 4678553,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/秦皇岛5地块.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/秦皇岛5地块.jpg",
+    "bytes": 30123,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/客房塔楼日景1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/客房塔楼日景1.jpg",
+    "bytes": 132393,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/秦皇岛5.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/秦皇岛5.jpg",
+    "bytes": 229564,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/51.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/51.jpg",
+    "bytes": 126619,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/53.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/53.jpg",
+    "bytes": 165160,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/56.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/56.jpg",
+    "bytes": 179198,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/57.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/57.jpg",
+    "bytes": 98838,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/55.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/55.jpg",
+    "bytes": 69785,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/客房塔楼日景1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/客房塔楼日景1-650x650.jpg",
+    "bytes": 40540,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/51-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/51-650x650.jpg",
+    "bytes": 49293,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/53-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/53-650x650.jpg",
+    "bytes": 63392,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/56-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/56-650x650.jpg",
+    "bytes": 62723,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/57-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/57-650x650.jpg",
+    "bytes": 36223,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/55-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/55-650x650.jpg",
+    "bytes": 31267,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/index.html",
+    "bytes": 95,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/1—46-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/1—46-650x650.jpg",
+    "bytes": 95463,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/1-42-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/1-42-650x650.jpg",
+    "bytes": 87259,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/04/实6-1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2025/04/实6-1-650x650.jpg",
+    "bytes": 67573,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/1—44-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/1—44-650x650.jpg",
+    "bytes": 88388,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/1-43-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/1-43-650x650.jpg",
+    "bytes": 98730,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/index.html",
+    "bytes": 95,
+    "kind": null,
+    "status": "200|text/html; charset=UTF-8"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/m2.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/m2.jpg",
+    "bytes": 153354,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/夜景庭院.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/夜景庭院.jpg",
+    "bytes": 106814,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/美利亚7.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/美利亚7.jpg",
+    "bytes": 187497,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/m3.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/m3.jpg",
+    "bytes": 59450,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/美利亚2-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/美利亚2-650x650.jpg",
+    "bytes": 73466,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/m1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/m1-650x650.jpg",
+    "bytes": 84020,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/美利亚5-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/美利亚5-650x650.jpg",
+    "bytes": 35651,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/m2-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/m2-650x650.jpg",
+    "bytes": 49986,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-19104.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-19104.css",
+    "bytes": 18869,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/西安美利亚首图.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/西安美利亚首图.jpg",
+    "bytes": 15124,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-19077.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-19077.css",
+    "bytes": 18777,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/%E6%97%A5%E6%99%AF%E5%BA%AD%E9%99%A2.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/日景庭院.jpg",
+    "bytes": 324929,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/美利亚2.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/美利亚2.jpg",
+    "bytes": 262388,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/美利亚5.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/美利亚5.jpg",
+    "bytes": 133685,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-19118.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-19118.css",
+    "bytes": 18847,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/夜景庭院-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/夜景庭院-650x650.jpg",
+    "bytes": 51412,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平13.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平13.jpg",
+    "bytes": 129697,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平15.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平15.jpg",
+    "bytes": 207257,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平14.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平14.jpg",
+    "bytes": 221839,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平1.jpg",
+    "bytes": 189517,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平16.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平16.jpg",
+    "bytes": 240359,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平5.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平5.jpg",
+    "bytes": 165681,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平遥首图-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平遥首图-650x650.jpg",
+    "bytes": 28672,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平13-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平13-650x650.jpg",
+    "bytes": 45056,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/%E5%B9%B311.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平11.jpg",
+    "bytes": 210037,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/m3-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/m3-650x650.jpg",
+    "bytes": 27063,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/平遥凯悦臻选.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/平遥凯悦臻选.jpg",
+    "bytes": 15320,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/美利亚7-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/美利亚7-650x650.jpg",
+    "bytes": 71738,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/西安太伟美利亚酒店动画_3_1.mp4": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/西安太伟美利亚酒店动画_3_1.mp4",
+    "bytes": 6962568,
+    "kind": null,
+    "status": "200|video/mp4"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平14-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平14-650x650.jpg",
+    "bytes": 81839,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-19125.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-19125.css",
+    "bytes": 18829,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平16-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平16-650x650.jpg",
+    "bytes": 75327,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平1-650x650.jpg",
+    "bytes": 71493,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平5-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平5-650x650.jpg",
+    "bytes": 79249,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平15-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平15-650x650.jpg",
+    "bytes": 85108,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/%E9%98%BF%E7%BA%B3%E8%BF%AA2.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/阿纳迪2.jpg",
+    "bytes": 257966,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平遥动画-SS_2_4_1.mp4": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平遥动画-SS_2_4_1.mp4",
+    "bytes": 7516536,
+    "kind": null,
+    "status": "200|video/mp4"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/56966b01d0b89b4b25974239808cbd51.png": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/56966b01d0b89b4b25974239808cbd51.png",
+    "bytes": 30565,
+    "kind": null,
+    "status": "200|image/png"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/阿4.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/阿4.jpg",
+    "bytes": 155418,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/阿6.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/阿6.jpg",
+    "bytes": 238135,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/阿7.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/阿7.jpg",
+    "bytes": 247332,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/阿5.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/阿5.jpg",
+    "bytes": 233471,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/纳迪1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/纳迪1.jpg",
+    "bytes": 302263,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/纳迪5.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/纳迪5.jpg",
+    "bytes": 301291,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/阿纳迪动画-x_1_1_1_2_1.mp4": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/阿纳迪动画-x_1_1_1_2_1.mp4",
+    "bytes": 5013482,
+    "kind": null,
+    "status": "200|video/mp4"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/阿4-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/阿4-650x650.jpg",
+    "bytes": 64000,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-19111.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-19111.css",
+    "bytes": 18850,
+    "kind": "css",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/1207石家庄强大综合体视频（1000M）_1_1.mp4": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/1207石家庄强大综合体视频（1000M）_1_1.mp4",
+    "bytes": 5539171,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/石家庄强大.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/石家庄强大.jpg",
+    "bytes": 17887,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/强大97.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/强大97.jpg",
+    "bytes": 171158,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/强大95.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/强大95.jpg",
+    "bytes": 44281,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/强大92.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/强大92.jpg",
+    "bytes": 100646,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/强大94.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/强大94.jpg",
+    "bytes": 278576,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/强大98.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/强大98.jpg",
+    "bytes": 259522,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/强大93.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/强大93.jpg",
+    "bytes": 351526,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/强大96.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/强大96.jpg",
+    "bytes": 246143,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/plugins/wp-rocket/assets/js/wpr-beacon.min.js": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/plugins/wp-rocket/assets/js/wpr-beacon.min.js",
+    "bytes": 25483,
+    "kind": "js",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/强大97-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/强大97-650x650.jpg",
+    "bytes": 66378,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/强大95-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/强大95-650x650.jpg",
+    "bytes": 23597,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/强大92-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/强大92-650x650.jpg",
+    "bytes": 47923,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/强大94-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/强大94-650x650.jpg",
+    "bytes": 77162,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/强大98-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/强大98-650x650.jpg",
+    "bytes": 70473,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/强大93-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/强大93-650x650.jpg",
+    "bytes": 92826,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/强大96-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/强大96-650x650.jpg",
+    "bytes": 66170,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/11/index.html",
+    "bytes": 95,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/portfolio-item/mixed-use-project-indigo-hotel-shijiazhuang-qiangda": {
+    "ok": true,
+    "path": "site/www.h2arch.com/portfolio-item/mixed-use-project-indigo-hotel-shijiazhuang-qiangda/index.html",
+    "bytes": 123269,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/阿5-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/阿5-650x650.jpg",
+    "bytes": 102676,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/阿6-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/阿6-650x650.jpg",
+    "bytes": 85138,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/纳迪5-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/纳迪5-650x650.jpg",
+    "bytes": 112985,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/阿2.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/阿2.jpg",
+    "bytes": 178001,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/阿7-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/阿7-650x650.jpg",
+    "bytes": 90596,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/纳迪1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/05/纳迪1-650x650.jpg",
+    "bytes": 112630,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-22017.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-22017.css",
+    "bytes": 18835,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/111.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/111.jpg",
+    "bytes": 15747,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/阿2-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/阿2-650x650.jpg",
+    "bytes": 73118,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/微信图片_20240124112008.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/微信图片_20240124112008.jpg",
+    "bytes": 77824,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/S2.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/S2.jpg",
+    "bytes": 194404,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/800x600c.webp.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/800x600c.webp.jpg",
+    "bytes": 236416,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/S3.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/S3.jpg",
+    "bytes": 332604,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/微信图片_20240124111230.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/微信图片_20240124111230.jpg",
+    "bytes": 61440,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/S5-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/S5-650x650.jpg",
+    "bytes": 45493,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/y1-1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/y1-1.jpg",
+    "bytes": 61440,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/S3-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/S3-650x650.jpg",
+    "bytes": 106880,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/微信图片_20240124111226.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/微信图片_20240124111226.jpg",
+    "bytes": 61440,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/S7.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/S7.jpg",
+    "bytes": 61440,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/y2-1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/y2-1.jpg",
+    "bytes": 45056,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/台商活动艺术展览中心-01_2.mp4": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/台商活动艺术展览中心-01_2.mp4",
+    "bytes": 7038768,
+    "kind": null,
+    "status": "200|video/mp4"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/y2-1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/y2-1-650x650.jpg",
+    "bytes": 56198,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/微信图片_20240124112008-650x608.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/微信图片_20240124112008-650x608.jpg",
+    "bytes": 103100,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-21987.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-21987.css",
+    "bytes": 18839,
+    "kind": "css",
+    "status": "200|text/css"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/微信图片_20240124111226-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/微信图片_20240124111226-650x650.jpg",
+    "bytes": 49560,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/S7-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/S7-650x650.jpg",
+    "bytes": 51777,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/y1-1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/y1-1-650x650.jpg",
+    "bytes": 62963,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/800x600c.webp-650x600.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/800x600c.webp-650x600.jpg",
+    "bytes": 51305,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/微信图片_20240124111230-650x608.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/微信图片_20240124111230-650x608.jpg",
+    "bytes": 70917,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/C12.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/C12.jpg",
+    "bytes": 124184,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/C10-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/C10-650x650.jpg",
+    "bytes": 74332,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/C7-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/C7-650x650.jpg",
+    "bytes": 94227,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/C11-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/C11-650x650.jpg",
+    "bytes": 66958,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/C8-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/C8-650x650.jpg",
+    "bytes": 96745,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/C9-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/C9-650x650.jpg",
+    "bytes": 99576,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/C6-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/C6-650x650.jpg",
+    "bytes": 64286,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/k1-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/k1-650x650.jpg",
+    "bytes": 86821,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/portfolio-item/cordis-hotel-kunshan-2": {
+    "ok": true,
+    "path": "site/www.h2arch.com/portfolio-item/cordis-hotel-kunshan-2/index.html",
+    "bytes": 121748,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/C11.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/C11.jpg",
+    "bytes": 209238,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/C6.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/C6.jpg",
+    "bytes": 192512,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/C8.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/C8.jpg",
+    "bytes": 258048,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/C10.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/C10.jpg",
+    "bytes": 208896,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/k1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/k1.jpg",
+    "bytes": 192512,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/C9.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/C9.jpg",
+    "bytes": 208896,
+    "kind": null,
+    "status": "200|image/jpeg"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/w10-1.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/w5.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-21643.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/w11.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/阳山索菲特酒店1G.mp4": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/w8.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/无锡9.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/w12.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/w13.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/w12-650x650.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/无锡4.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/w8-650x650.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/w13-650x650.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/w9-650x650.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/w11-650x650.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/无锡9-650x650.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/r5.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/02/r5.jpg",
+    "bytes": 366119,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-22361.css": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/elementor/css/post-22361.css",
+    "bytes": 18623,
+    "kind": "css",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/无锡4-650x650.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/三亚500m.mp4": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/02/三亚500m.mp4",
+    "bytes": 7120331,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/r2.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/02/r2.jpg",
+    "bytes": 147286,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/三亚1.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/02/三亚1.jpg",
+    "bytes": 15051,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/r6.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/02/r6.jpg",
+    "bytes": 212063,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/r4.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/02/r4.jpg",
+    "bytes": 176457,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/R7.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/02/R7.jpg",
+    "bytes": 258555,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/r6-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/02/r6-650x650.jpg",
+    "bytes": 73205,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/R11.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/02/R11.jpg",
+    "bytes": 159744,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/r2-650x650.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/02/r2-650x650.jpg",
+    "bytes": 55044,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/R8.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/02/R8.jpg",
+    "bytes": 404247,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/R12.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/02/R12.jpg",
+    "bytes": 226937,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/r4-650x650.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/R8-650x650.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/R7-650x650.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/R11-650x650.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/R12-650x650.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.svg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.ttf": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/css/openhand.cur": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/assets/gridtile_white.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/assets/gridtile.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/assets/coloredbg.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/assets/loader.gif": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/css/closedhand.cur": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/assets/gridtile_3x3_white.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/js/+t[e].thumbs[g].src+": {
+    "ok": false,
+    "status": "",
+    "error": "curl: (3) bad range in URL position 73:\nhttps://www.h2arch.com/wp-content/plugins/revslider/public/assets/js/+t[e].thumbs[g].src+\n                                                                        ^\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/js/+t[e].thumbs[u].src+": {
+    "ok": false,
+    "status": "",
+    "error": "curl: (3) bad range in URL position 73:\nhttps://www.h2arch.com/wp-content/plugins/revslider/public/assets/js/+t[e].thumbs[u].src+\n                                                                        ^\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/js/+t[r].thumbs[a.index(": {
+    "ok": false,
+    "status": "",
+    "error": "curl: (3) bad range in URL position 73:\nhttps://www.h2arch.com/wp-content/plugins/revslider/public/assets/js/+t[r].thumbs[a.index(\n                                                                        ^\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/js/+s.poster+": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/js/+t[o].thumbs[a.index(": {
+    "ok": false,
+    "status": "",
+    "error": "curl: (3) bad range in URL position 73:\nhttps://www.h2arch.com/wp-content/plugins/revslider/public/assets/js/+t[o].thumbs[a.index(\n                                                                        ^\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/8.4.5/${l}": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/revslider/public/assets/js/+t[e].patternCanvas.toDataURL(": {
+    "ok": false,
+    "status": "",
+    "error": "curl: (3) bad range in URL position 73:\nhttps://www.h2arch.com/wp-content/plugins/revslider/public/assets/js/+t[e].patternCanvas.toDataURL(\n                                                                        ^\n"
+  },
+  "https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbVmaiA8.ttf": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/resea-indigo-hotel-qinhuangdao-cn": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/resea-indigo-hotel-qinhuangdao-cn/index.html",
+    "bytes": 129334,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4uaVc.ttf": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-18135.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4uaVc.ttf": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/hyatt-regency-hotel-shijia-zhuang-cn": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/hyatt-regency-hotel-shijia-zhuang-cn/index.html",
+    "bytes": 123230,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-19009.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-19018.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-19023.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-18109.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2026/09/ebecf9ca7be23fc5e1d704959262e7f6-1.mp4": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-21632.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-17688.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/123-scaled.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/123-1024x719.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/123-2048x1437.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/123-300x211.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/123-1536x1078.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/1234.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-22861.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/123-768x539.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor-pro/assets/css/widget-theme-elements.min.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/1234-768x479.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/1234-300x187.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/1234-1024x638.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/123456-768x751.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/123456-1024x1002.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/123456.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2025/07/123456-300x293.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/2025/07/": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/cn/author/wph2arcadm-01/": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/06/640-1-1.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/06/640-1-1-195x300.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/06/640-1-1-667x1024.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/06/640-1-1-1000x1536.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/2024/06/": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/06/640-1-1-768x1179.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/05/G9.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/05/G9-300x169.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-22407.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/05/G9-768x432.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/05/G9-1536x864.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/05/G2-300x169.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/05/G2.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/05/G9-1024x576.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/05/G2-768x432.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/cn/h2%E6%96%B9%E6%A1%88%E8%AE%BE%E8%AE%A1-%E5%B8%8C%E5%B0%94%E9%A1%BF%E9%9B%86%E5%9B%A2%E4%B8%A4%E5%A4%A7%E5%93%81%E7%89%8C%E7%AD%BE%E7%BA%A6%E8%90%BD%E5%9C%B0%E4%B8%8A%E6%B5%B7%E5%9B%BD%E9%99%85-2": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/h2方案设计-希尔顿集团两大品牌签约落地上海国际-2/index.html",
+    "bytes": 100106,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/05/G2-1536x864.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/06/640-1024x682.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/05/G2-1024x576.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/06/640-300x200.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/06/640.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-22466.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/06/640-768x511.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/水乐园.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/水乐园-300x169.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/水乐园-1536x864.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/水乐园-768x432.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/cn/2024/05": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/2024/05/index.html",
+    "bytes": 84956,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/水乐园-1024x576.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/08/45a8f7dd6df8b02bcdb9aa483fd18cc1.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/2024/05/": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/08/45a8f7dd6df8b02bcdb9aa483fd18cc1-1024x546.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/08/45a8f7dd6df8b02bcdb9aa483fd18cc1-300x160.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/08/45a8f7dd6df8b02bcdb9aa483fd18cc1-768x410.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/08/45a8f7dd6df8b02bcdb9aa483fd18cc1-1536x819.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-18398.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/08/82c9073aef4efbc2db4f86886f772b21-300x170.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/h2-design-two-brands-of-hilton-group-signed-a-contract-to-land-in-shanghai-international-tourism-resort/": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/08/82c9073aef4efbc2db4f86886f772b21.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/08/82c9073aef4efbc2db4f86886f772b21-1024x581.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/08/82c9073aef4efbc2db4f86886f772b21-768x436.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/08/82c9073aef4efbc2db4f86886f772b21-1536x872.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/cn/author/michael/": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/cn/2023/08": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/2023/08/index.html",
+    "bytes": 85038,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/2023/08/": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/03-portfolio-001-300x242.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/03-portfolio-001-768x620.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/03-portfolio-001-1536x1241.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/03-portfolio-001-1024x827.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/微信图片_20231101160203.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/03-portfolio-001.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/微信图片_20231101160203-300x195.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/微信图片_20231101160203-1024x667.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/11/微信图片_20231101160203-768x500.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/%E7%A7%A6%E7%9A%87%E5%B2%9B1-41.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/秦皇岛1-41-1024x720.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/秦皇岛1-41.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-includes/blocks/gallery/style.min.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/秦皇岛1-41-768x540.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/2022/07/": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/秦皇岛1-41-300x211.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/秦皇岛5-300x211.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-23010.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-includes/js/mediaelement/mejs-controls.svg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/秦皇岛5-1024x720.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/03d7f5c29c11267543f13df7297cf8a-1.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/秦皇岛5-768x540.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/cn/%E6%B4%B2%E8%87%B3%E5%A5%A2%E9%80%89%E5%8C%97%E6%88%B4%E6%B2%B3%E5%A6%82%E6%98%AF%E6%B5%B7%E9%85%92%E5%BA%97": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/洲至奢选北戴河如是海酒店/index.html",
+    "bytes": 102576,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/03d7f5c29c11267543f13df7297cf8a-1-1024x555.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/03d7f5c29c11267543f13df7297cf8a-1-768x416.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/03d7f5c29c11267543f13df7297cf8a-1-300x163.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/%E7%A7%A6%E7%9A%87%E5%B2%9B5.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/秦皇岛5.jpg",
+    "bytes": 229564,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/03d7f5c29c11267543f13df7297cf8a-1-1536x832.png": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-19911.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/the-unbound-collection-by-hyatt-pingyao-cn": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/the-unbound-collection-by-hyatt-pingyao-cn/index.html",
+    "bytes": 122206,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-19035.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-18971.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/mixed-use-project-indigo-hotel-shijiazhuang-qiangda-cn": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/mixed-use-project-indigo-hotel-shijiazhuang-qiangda-cn/index.html",
+    "bytes": 123505,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-21890.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-21995.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-19045.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-21965.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/cordis-hotelkunshan": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/cordis-hotelkunshan/index.html",
+    "bytes": 122027,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-21628.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/cn/portfolio-item/wuxi-yangshanhu-sofitel-hotel": {
+    "ok": true,
+    "path": "site/www.h2arch.com/cn/portfolio-item/wuxi-yangshanhu-sofitel-hotel/index.html",
+    "bytes": 122610,
+    "kind": "html",
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2022/04/h7-img-02.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/elementor/css/post-22276.css": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/plugins/elementor/assets/lib/e-gallery/js/+t.thumbnail+": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/x1.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/中庭图片.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/10/s12.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/日景庭院.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/日景庭院.jpg",
+    "bytes": 324929,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/石家庄凯悦4.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/02-portfolio-001.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平11.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/平11.jpg",
+    "bytes": 210037,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/阿纳迪2.jpg": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2023/03/阿纳迪2.jpg",
+    "bytes": 257966,
+    "kind": null,
+    "status": "cached"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/03-portfolio-002.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/03/平12.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/强大91.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2023/05/强大9.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/02/r3.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/S1.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/c1.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/C5.jpg": {
+    "ok": false,
+    "status": "000|",
+    "error": "curl: (56) CONNECT tunnel failed, response 403\n"
+  },
+  "https://www.h2arch.com/wp-content/uploads/2024/01/20210630_昆山康得思.mp4": {
+    "ok": true,
+    "path": "site/www.h2arch.com/wp-content/uploads/2024/01/20210630_昆山康得思.mp4",
+    "bytes": 7788822,
+    "kind": null,
+    "status": "200|video/mp4"
+  }
+}

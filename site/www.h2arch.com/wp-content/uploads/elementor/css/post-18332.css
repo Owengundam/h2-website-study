@@ -1,0 +1,73 @@
+.elementor-18332 .elementor-element.elementor-element-0917ca2 > .elementor-container{max-width:1600px;}.elementor-18332 .elementor-element.elementor-element-0917ca2{padding:3% 0% 10% 0%;}.elementor-msie .elementor-18332 .elementor-element.elementor-element-be704b4 .elementor-portfolio-item{width:calc( 100% / 3 );}.elementor-18332 .elementor-element.elementor-element-be704b4 .elementor-post__thumbnail__link{padding-bottom:calc( 0.7 * 100% );}.elementor-18332 .elementor-element.elementor-element-be704b4:after{content:"0.7";position:absolute;color:transparent;}.elementor-18332 .elementor-element.elementor-element-be704b4{--grid-column-gap:15px;--grid-row-gap:15px;}.elementor-18332 .elementor-element.elementor-element-be704b4 .elementor-portfolio-item__img, .elementor-18332 .elementor-element.elementor-element-be704b4 .elementor-portfolio-item__overlay{border-radius:0px 0px 0px 0px;}.elementor-18332 .elementor-element.elementor-element-be704b4 a .elementor-portfolio-item__overlay{background-color:#000000;}.elementor-18332 .elementor-element.elementor-element-be704b4 .elementor-portfolio-item__title{font-family:"Open Sans", Open Sans;font-size:18px;font-weight:500;}.elementor-18332 .elementor-element.elementor-element-be704b4 .elementor-portfolio__filter{color:#A8A8A8;font-family:"Open Sans", Open Sans;font-size:16px;font-weight:400;line-height:16px;letter-spacing:0px;}.elementor-18332 .elementor-element.elementor-element-be704b4 .elementor-portfolio__filter.elementor-active{color:#000000;}.elementor-18332 .elementor-element.elementor-element-be704b4 .elementor-portfolio__filter:not(:last-child){margin-right:calc(8px/2);}.elementor-18332 .elementor-element.elementor-element-be704b4 .elementor-portfolio__filter:not(:first-child){margin-left:calc(8px/2);}.elementor-18332 .elementor-element.elementor-element-be704b4 .elementor-portfolio__filters{margin-bottom:25px;}.elementor-18332 .elementor-element.elementor-element-be704b4 > .elementor-widget-container{padding:0% 0% 0% 0%;}@media(max-width:1024px){.elementor-msie .elementor-18332 .elementor-element.elementor-element-be704b4 .elementor-portfolio-item{width:calc( 100% / 2 );}}@media(max-width:767px){.elementor-msie .elementor-18332 .elementor-element.elementor-element-be704b4 .elementor-portfolio-item{width:calc( 100% / 1 );}}/* Start Custom Fonts CSS */@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-regular.eot');
+	src: url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-regular.eot?#iefix') format('embedded-opentype'),
+		url('https:/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-regular.woff2') format('woff2'),
+		url('https:/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-regular.woff') format('woff'),
+		url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-regular.ttf') format('truetype'),
+		url('https:/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-regular.svg#OpenSans') format('svg');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-300.eot');
+	src: url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-300.eot?#iefix') format('embedded-opentype'),
+		url('https:/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-300.woff2') format('woff2'),
+		url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-300.woff') format('woff'),
+		url('https:/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-300.ttf') format('truetype'),
+		url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-300.svg#OpenSans') format('svg');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-500.eot');
+	src: url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-500.eot?#iefix') format('embedded-opentype'),
+		url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-500.woff2') format('woff2'),
+		url('https:/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-500.woff') format('woff'),
+		url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-500.ttf') format('truetype'),
+		url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-500.svg#OpenSans') format('svg');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-display: auto;
+	src: url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-600.eot');
+	src: url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-600.eot?#iefix') format('embedded-opentype'),
+		url('https:/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-600.woff2') format('woff2'),
+		url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-600.woff') format('woff'),
+		url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-600.ttf') format('truetype'),
+		url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-600.svg#OpenSans') format('svg');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-display: auto;
+	src: url('https:/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-700.eot');
+	src: url('https:/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-700.eot?#iefix') format('embedded-opentype'),
+		url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-700.woff2') format('woff2'),
+		url('https:/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-700.woff') format('woff'),
+		url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-700.ttf') format('truetype'),
+		url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-700.svg#OpenSans') format('svg');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-display: auto;
+	src: url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-800.eot');
+	src: url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-800.eot?#iefix') format('embedded-opentype'),
+		url('https:/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-800.woff2') format('woff2'),
+		url('/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-800.woff') format('woff'),
+		url('https:/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-800.ttf') format('truetype'),
+		url('https:/www.h2arch.com/wp-content/uploads/2022/12/open-sans-v34-latin-800.svg#OpenSans') format('svg');
+}
+/* End Custom Fonts CSS */
