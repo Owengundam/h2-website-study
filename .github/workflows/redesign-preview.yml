@@ -17,11 +17,11 @@ permissions:
   checks: read
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
         with:
@@ -66,7 +66,7 @@ jobs:
           root='https://api.github.com/repos/Owengundam/h2-website-study'
           def get(url):
               req=urllib.request.Request(url,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'})
-              with urllib.request.urlopen(req) as r:return json.load(r)
+              with urllib.request.urlopen(req,timeout=25) as r:return json.load(r)
           out=pathlib.Path('redesign-qa');out.mkdir(exist_ok=True)
           report={}
           try:
@@ -79,10 +79,11 @@ jobs:
           except Exception as ex:report['diagnostic_error']=str(ex)
           (out/'deployment-diagnostic.json').write_text(json.dumps(report,indent=2))
           print(json.dumps(report))
-      - name: Install build and test tools
+      - name: Install build and browser tools
+        timeout-minutes: 3
         run: |
-          pip install beautifulsoup4 Pillow playwright
-          python -m playwright install --with-deps chromium
+          pip install --timeout 30 beautifulsoup4 Pillow playwright
+          python -m playwright install chromium
       - name: Build bilingual editorial website
         run: python scripts/build_redesign.py
       - name: Check links, mobile layout, gallery, filters and video
