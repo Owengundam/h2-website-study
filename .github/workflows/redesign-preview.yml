@@ -1,0 +1,101 @@
+name: Build H2 redesign preview
+on:
+  push:
+    branches: [redesign/k-studio-indigo]
+    paths:
+      - .github/workflows/redesign-preview.yml
+      - scripts/build_redesign.py
+      - scripts/test_redesign.py
+      - redesign/*.css
+      - redesign/*.js
+      - redesign/bootstrap/**
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: redesign/k-studio-indigo
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Restore verified source files from connector transport
+        shell: python
+        run: |
+          import pathlib,base64,gzip,json,hashlib,shutil
+          folder=pathlib.Path('redesign/bootstrap')
+          if folder.exists():
+              parts=sorted(folder.glob('source-*.b64'))
+              if len(parts)!=4: raise RuntimeError('Incomplete source transport')
+              raw=base64.b64decode(''.join(p.read_text().strip() for p in parts),validate=True)
+              expected='8ed45eeeffe22df491cfb18a8a2de0a0d2ae4dfd03fc19aa1bc230aaf588bbc9'
+              actual=hashlib.sha256(raw).hexdigest()
+              if actual!=expected: raise RuntimeError('Source checksum mismatch: '+actual)
+              sources=json.loads(gzip.decompress(raw))
+              allowed={'scripts/build_redesign.py','scripts/test_redesign.py','redesign/reference-layout.css','redesign/README.md'}
+              if set(sources)!=allowed: raise RuntimeError('Unexpected source paths')
+              for name,content in sources.items():
+                  path=pathlib.Path(name);path.parent.mkdir(parents=True,exist_ok=True);path.write_text(content,encoding='utf-8')
+              shutil.rmtree(folder)
+              js=pathlib.Path('redesign/site.js');text=js.read_text()
+              needle="      if (count) count.textContent = String(visible).padStart(2, '0');"
+              text=text.replace(needle,needle+"\n      $$('[data-filter-decoration]').forEach(el => { el.hidden = category !== 'all'; });")
+              js.write_text(text)
+              readme=pathlib.Path('redesign/README.md')
+              readme.write_text(readme.read_text().replace('under `redesign/source-bundle.b64`','under `redesign/bootstrap/`'))
+              print('Restored four editable source files; SHA-256 verified; temporary transport removed.')
+      - name: Install build and test tools
+        run: |
+          pip install beautifulsoup4 Pillow playwright
+          python -m playwright install --with-deps chromium
+      - name: Build bilingual editorial website
+        run: python scripts/build_redesign.py
+      - name: Check links, mobile layout, gallery, filters and video
+        run: python scripts/test_redesign.py
+      - name: Save completed design on the isolated branch
+        run: |
+          git config user.name 'H2 Redesign'
+          git config user.email 'noreply@users.noreply.github.com'
+          git add -A redesign scripts/build_redesign.py scripts/test_redesign.py
+          git diff --cached --quiet || git commit -m 'Build 40-page bilingual H2 redesign with Nalati case study and verified original media'
+          git pull --rebase origin redesign/k-studio-indigo
+          git push origin HEAD:redesign/k-studio-indigo
+      - name: Build existing archive and add separate redesign preview
+        run: |
+          python scripts/build_pages.py
+          mkdir -p _site/redesign
+          cp -R redesign/. _site/redesign/
+          rm -rf _site/redesign/bootstrap
+          touch _site/.nojekyll
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h2-redesign-review
+          path: |
+            redesign
+            redesign-qa
+            scripts/build_redesign.py
+            scripts/test_redesign.py
+          retention-days: 14
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}redesign/
+    steps:
+      - name: Publish preview alongside the original study site
+        id: deployment
+        uses: actions/deploy-pages@v4
