@@ -43,19 +43,20 @@ jobs:
           text=tests.read_text()
           needle='                    page.screenshot(path=str(QA/'
           if 'Wait for decoded and painted imagery' not in text:
-              extra='''                    # Wait for decoded and painted imagery, including off-screen lazy images.
-                              page.evaluate("async()=>{await Promise.all([...document.querySelectorAll('main img[src]')].map(i=>i.decode()))}")
-                              for image in page.locator('main img[src]').all():
-                                  image.scroll_into_view_if_needed()
-                                  page.wait_for_timeout(60)
-                              page.evaluate('scrollTo(0,0)')
-                              page.wait_for_timeout(200)
-          '''
-              lines=extra.splitlines()
-              extra='\n'.join(lines[:1]+[line[10:] if line.startswith('          ') else line for line in lines[1:]])
-              text=text.replace(needle,extra+'\n'+needle)
+              lines=[
+                  '# Wait for decoded and painted imagery, including off-screen lazy images.',
+                  'page.evaluate("async()=>{await Promise.all([...document.querySelectorAll(\'main img[src]\')].map(i=>i.decode()))}")',
+                  "for image in page.locator('main img[src]').all():",
+                  '    image.scroll_into_view_if_needed()',
+                  '    page.wait_for_timeout(60)',
+                  "page.evaluate('scrollTo(0,0)')",
+                  'page.wait_for_timeout(200)',
+              ]
+              extra='\n'.join(' '*20+line for line in lines)+'\n'
+              text=text.replace(needle,extra+needle)
+          compile(text,str(tests),'exec')
           tests.write_text(text)
-      - name: Record previous preview-deployment diagnostics
+      - name: Record preview-deployment diagnostics
         continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
