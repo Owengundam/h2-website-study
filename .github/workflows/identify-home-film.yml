@@ -1,0 +1,50 @@
+name: Identify original H2 homepage media
+on:
+  push:
+    branches: [update/identity-film-copy]
+    paths: [.github/workflows/identify-home-film.yml]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - name: Find source homepage media
+        shell: python
+        run: |
+          import pathlib,re,json,html,concurrent.futures,requests
+          from bs4 import BeautifulSoup
+          out=pathlib.Path('media-inspection');out.mkdir(exist_ok=True)
+          report={'archive_videos':[], 'live_pages':[]}
+          for file in pathlib.Path('site/www.h2arch.com').rglob('*.html'):
+              text=html.unescape(file.read_text(errors='replace')).replace('\\/','/')
+              urls=sorted(set(re.findall(r'(?:https?:/*|/)[^\s<>"\x27]*\.(?:mp4|webm|m4v|mov)(?:\?[^\s<>"\x27]*)?',text,re.I)))
+              if urls:report['archive_videos'].append({'page':str(file),'urls':urls})
+          for file in pathlib.Path('site/www.h2arch.com/wp-content/uploads').rglob('*'):
+              if file.suffix.lower() in ['.mp4','.webm','.m4v','.mov']:
+                  report.setdefault('local_video_files',[]).append(str(file))
+          urls=['https://www.h2arch.com/','https://www.h2arch.com/?lang=en','https://www.h2arch.com/?preview=home','https://www.h2arch.com/cn/','https://www.h2arch.com/home/','http://www.h2arch.com/']
+          def fetch(url):
+              try:
+                  session=requests.Session();session.max_redirects=4
+                  response=session.get(url,timeout=(10,18),headers={'User-Agent':'Mozilla/5.0'})
+                  text=html.unescape(response.text).replace('\\/','/')
+                  soup=BeautifulSoup(text,'html.parser')
+                  videos=sorted(set(re.findall(r'(?:https?:/*|/)[^\s<>"\x27]*\.(?:mp4|webm|m4v|mov)(?:\?[^\s<>"\x27]*)?',text,re.I)))
+                  name=re.sub(r'[^a-zA-Z0-9]','_',url)+'.html';(out/name).write_text(response.text)
+                  return {'requested':url,'final':response.url,'status':response.status_code,'title':soup.title.get_text() if soup.title else '', 'videos':videos,'video_tags':[str(v) for v in soup.select('video,source,iframe')][:15]}
+              except Exception as error:return {'requested':url,'error':str(error)}
+          with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:report['live_pages']=list(pool.map(fetch,urls))
+          (out/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))
+          print(json.dumps(report,ensure_ascii=False))
+      - uses: actions/upload-artifact@v4
+        with:
+          name: h2-original-home-media
+          path: media-inspection
+          retention-days: 3
