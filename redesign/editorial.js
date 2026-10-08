@@ -18,6 +18,16 @@
   film.defaultMuted = true;
   film.autoplay = false;
   controls.hidden = false;
+  // Preserve the source composition, including any letterboxing in the film itself.
+  // The original atmosphere file has a square frame; metadata remains authoritative.
+  if (scope.closest('.studio-work-film')) {
+    scope.style.aspectRatio = '1 / 1';
+    const nativeRatio = () => {
+      if (film.videoWidth && film.videoHeight) scope.style.aspectRatio = `${film.videoWidth} / ${film.videoHeight}`;
+    };
+    film.addEventListener('loadedmetadata', nativeRatio);
+    nativeRatio();
+  }
   const update = () => {
     toggle.textContent = film.paused ? (zh ? '播放影片' : 'Play film') : (zh ? '暂停影片' : 'Pause film');
     toggle.setAttribute('aria-label', toggle.textContent);
