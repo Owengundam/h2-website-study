@@ -1,11 +1,13 @@
-name: Test Our Work video fit
+name: Test Our Work video controls
 on:
   push:
-    branches: [fix/our-work-video-fit]
+    branches: [fix/our-work-video-fit, fix/minimal-film-controls]
     paths:
       - redesign/studio-home.css
+      - redesign/editorial.css
       - redesign/editorial.js
       - scripts/test_video_fit.py
+      - scripts/test_film_controls.py
       - .github/workflows/video-fit-test.yml
 permissions:
   contents: read
@@ -22,15 +24,15 @@ jobs:
         run: |
           python scripts/package_redesign.py
           node --check redesign/editorial.js
-      - name: Install media and browser test tools
+      - name: Install browser test tools
         run: |
-          pip install --timeout 30 imageio-ffmpeg playwright
+          pip install --timeout 30 playwright
           python -m playwright install chromium
-      - name: Check original picture bounds and align video with Strategy
-        run: python scripts/test_video_fit.py
+      - name: Check white hover icons, touch, keyboard, fullscreen and unchanged picture geometry
+        run: python scripts/test_film_controls.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: our-work-video-fit
+          name: our-work-video-controls
           path: video-fit-qa
           retention-days: 7
