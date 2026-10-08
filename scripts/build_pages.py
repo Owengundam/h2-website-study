@@ -30,6 +30,9 @@ static_widgets = r"""
 .qodef-qi-tabs-horizontal .elementor-invisible {visibility:visible!important}
 .qodef-qi-tabs-horizontal [hidden] {display:none!important}
 .qodef-qi-tabs-horizontal .elementor-portfolio {height:auto!important}
+.qodef-qi-tabs-horizontal .elementor-portfolio .elementor-post__thumbnail__link {height:0;padding-bottom:calc(var(--archive-item-ratio, .7) * 100%)!important}
+.qodef-qi-tabs-horizontal .elementor-portfolio .elementor-post__thumbnail {position:absolute!important;inset:0}
+.qodef-qi-tabs-horizontal .elementor-portfolio .elementor-post__thumbnail img {position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:cover;object-position:center;transform:none!important}
 .qodef-qi-tabs-horizontal .elementor-portfolio-item {position:relative!important;top:auto!important;left:auto!important;transform:none!important}
 </style>
 <script>
@@ -55,6 +58,12 @@ static_widgets = r"""
     });
     if (links.length) select(links[0]);
     tabs.querySelectorAll('.elementor-widget-portfolio').forEach(function (widget) {
+      const settings = JSON.parse(widget.getAttribute('data-settings') || '{}');
+      const ratio = Number(settings.item_ratio && settings.item_ratio.size);
+      if (ratio > 0) widget.style.setProperty('--archive-item-ratio', ratio);
+      widget.querySelectorAll('.elementor-portfolio').forEach(function (grid) {
+        grid.classList.add('elementor-has-item-ratio');
+      });
       const filters = Array.from(widget.querySelectorAll('[data-filter]'));
       filters.forEach(function (filter) {
         filter.setAttribute('role', 'button');
