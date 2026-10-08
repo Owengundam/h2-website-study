@@ -22,4 +22,17 @@
 .article-body h2{margin-top:45px}.article-body .arrow-link{margin-top:40px}
 @media(max-width:1100px){.brand img.brand-logo{width:235px}.home-introduction{gap:40px;padding-top:65px;padding-bottom:70px}}
 @media(max-width:700px){.brand{max-width:70%}.brand img.brand-logo{width:204px}.site-header{min-height:88px}.home-cinema{aspect-ratio:4/3;max-height:75svh;min-height:210px}.home-film{object-fit:contain}.home-film-caption{padding:13px 20px;align-items:start;font-size:8px;line-height:1.6;gap:22px}.home-film-caption>span{max-width:62%}.home-film-caption a{white-space:nowrap}.film-controls{right:12px;bottom:10px;gap:10px;padding:3px 8px;font-size:9px}.home-introduction{grid-template-columns:1fr;gap:20px;padding-top:43px;padding-bottom:48px}.home-introduction>.eyebrow{padding-top:0}.home-introduction h1{font-size:38px;margin-bottom:23px}.home-introduction p:not(.eyebrow){font-size:14px;line-height:1.8;margin-top:17px}.home-introduction .arrow-link{margin-top:17px}.film-message{font-size:11px;padding:12px 18px}}
+/* Enhanced player: no frame, background panel, text labels or persistent chrome.
+   The existing picture ratio and its alignment with Strategy are untouched. */
+.home-cinema[data-icon-controls],.home-cinema[data-icon-controls] .home-film{border:0;border-radius:0;box-shadow:none}
+.home-cinema[data-icon-controls] .film-controls{right:12px;bottom:10px;gap:4px;padding:0;margin:0;border:0;border-radius:0;box-shadow:none;background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none;color:#fff;opacity:0;pointer-events:none;transition:opacity .18s ease}
+.home-cinema[data-icon-controls] .film-controls button{display:grid;place-items:center;width:44px;height:44px;min-width:44px;min-height:44px;padding:10px;border:0;border-radius:0;background:transparent;box-shadow:none;color:#fff;line-height:1;cursor:pointer;appearance:none;-webkit-appearance:none}
+.home-cinema[data-icon-controls] .film-controls svg{display:block;width:24px;height:24px;color:#fff;pointer-events:none}
+.home-cinema[data-icon-controls] .film-controls button:focus-visible{outline:1px solid #fff;outline-offset:-4px}
+.home-cinema[data-icon-controls]:has(.film-controls button:focus-visible) .film-controls,
+.home-cinema[data-icon-controls].controls-revealed .film-controls,
+.home-cinema[data-icon-controls].needs-play .film-controls{opacity:1;pointer-events:auto}
+@media(hover:hover){.home-cinema[data-icon-controls]:hover .film-controls{opacity:1;pointer-events:auto}}
+@supports not selector(:has(*)){.home-cinema[data-icon-controls]:focus-within .film-controls{opacity:1;pointer-events:auto}}
+@media(prefers-reduced-motion:reduce){.home-cinema[data-icon-controls] .film-controls{transition:none}}
 @media print{.home-opening{display:none}.home-introduction{padding-top:25px;padding-bottom:25px}.film-controls{display:none}}
