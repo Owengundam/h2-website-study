@@ -12,22 +12,16 @@
   const zh = document.documentElement.lang.startsWith('zh');
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const saveData = !!navigator.connection?.saveData;
+  const pictureViewport = !!scope.closest('.studio-work-film');
   let visible = false;
   let userPaused = false;
   film.muted = true;
   film.defaultMuted = true;
   film.autoplay = false;
   controls.hidden = false;
-  // Preserve the source composition, including any letterboxing in the film itself.
-  // The original atmosphere file has a square frame; metadata remains authoritative.
-  if (scope.closest('.studio-work-film')) {
-    scope.style.aspectRatio = '1 / 1';
-    const nativeRatio = () => {
-      if (film.videoWidth && film.videoHeight) scope.style.aspectRatio = `${film.videoWidth} / ${film.videoHeight}`;
-    };
-    film.addEventListener('loadedmetadata', nativeRatio);
-    nativeRatio();
-  }
+  // This particular source embeds a centred 16:9 picture in a square export.
+  // CSS hides only those black margins. Do not reset the viewport to videoWidth /
+  // videoHeight: that would reintroduce the source's padding after metadata loads.
   const update = () => {
     toggle.textContent = film.paused ? (zh ? '播放影片' : 'Play film') : (zh ? '暂停影片' : 'Pause film');
     toggle.setAttribute('aria-label', toggle.textContent);
@@ -47,7 +41,8 @@
   });
   fullscreen.addEventListener('click', async () => {
     try {
-      if (film.requestFullscreen) { film.controls = true; await film.requestFullscreen(); }
+      const target = pictureViewport ? scope : film;
+      if (target.requestFullscreen) { film.controls = true; await target.requestFullscreen(); }
       else if (film.webkitEnterFullscreen) film.webkitEnterFullscreen();
     } catch (_) { film.controls = true; }
   });
