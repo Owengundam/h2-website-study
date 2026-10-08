@@ -8,12 +8,13 @@ on:
       - scripts/test_redesign.py
       - redesign/*.css
       - redesign/*.js
-      - redesign/bootstrap/**
   workflow_dispatch:
 permissions:
   contents: write
   pages: write
   id-token: write
+  actions: read
+  checks: read
 concurrency:
   group: pages
   cancel-in-progress: false
@@ -28,31 +29,55 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Restore verified source files from connector transport
+      - name: Normalize archive caption and screenshot capture
         shell: python
         run: |
-          import pathlib,base64,gzip,json,hashlib,shutil
-          folder=pathlib.Path('redesign/bootstrap')
-          if folder.exists():
-              parts=sorted(folder.glob('source-*.b64'))
-              if len(parts)!=4: raise RuntimeError('Incomplete source transport')
-              raw=base64.b64decode(''.join(p.read_text().strip() for p in parts),validate=True)
-              expected='8ed45eeeffe22df491cfb18a8a2de0a0d2ae4dfd03fc19aa1bc230aaf588bbc9'
-              actual=hashlib.sha256(raw).hexdigest()
-              if actual!=expected: raise RuntimeError('Source checksum mismatch: '+actual)
-              sources=json.loads(gzip.decompress(raw))
-              allowed={'scripts/build_redesign.py','scripts/test_redesign.py','redesign/reference-layout.css','redesign/README.md'}
-              if set(sources)!=allowed: raise RuntimeError('Unexpected source paths')
-              for name,content in sources.items():
-                  path=pathlib.Path(name);path.parent.mkdir(parents=True,exist_ok=True);path.write_text(content,encoding='utf-8')
-              shutil.rmtree(folder)
-              js=pathlib.Path('redesign/site.js');text=js.read_text()
-              needle="      if (count) count.textContent = String(visible).padStart(2, '0');"
-              text=text.replace(needle,needle+"\n      $$('[data-filter-decoration]').forEach(el => { el.hidden = category !== 'all'; });")
-              js.write_text(text)
-              readme=pathlib.Path('redesign/README.md')
-              readme.write_text(readme.read_text().replace('under `redesign/source-bundle.b64`','under `redesign/bootstrap/`'))
-              print('Restored four editable source files; SHA-256 verified; temporary transport removed.')
+          from pathlib import Path
+          source=Path('scripts/build_redesign.py')
+          text=source.read_text()
+          text=text.replace('Yu Hong, portrait from H2’s profile','Inside the H2 studio, from the practice profile')
+          text=text.replace('洪羽，图片来自赫图公开介绍','赫图工作室空间，图片来自事务所公开介绍')
+          text=text.replace('# Identify a real portrait in the existing profile page; otherwise use no invented portrait.','# Select a studio interior from the practice profile; do not invent a founder portrait.')
+          source.write_text(text)
+          tests=Path('scripts/test_redesign.py')
+          text=tests.read_text()
+          needle='                    page.screenshot(path=str(QA/'
+          if 'Wait for decoded and painted imagery' not in text:
+              extra='''                    # Wait for decoded and painted imagery, including off-screen lazy images.
+                              page.evaluate("async()=>{await Promise.all([...document.querySelectorAll('main img[src]')].map(i=>i.decode()))}")
+                              for image in page.locator('main img[src]').all():
+                                  image.scroll_into_view_if_needed()
+                                  page.wait_for_timeout(60)
+                              page.evaluate('scrollTo(0,0)')
+                              page.wait_for_timeout(200)
+          '''
+              lines=extra.splitlines()
+              extra='\n'.join(lines[:1]+[line[10:] if line.startswith('          ') else line for line in lines[1:]])
+              text=text.replace(needle,extra+'\n'+needle)
+          tests.write_text(text)
+      - name: Record previous preview-deployment diagnostics
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: python
+        run: |
+          import urllib.request,json,os,pathlib
+          root='https://api.github.com/repos/Owengundam/h2-website-study'
+          def get(url):
+              req=urllib.request.Request(url,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'})
+              with urllib.request.urlopen(req) as r:return json.load(r)
+          out=pathlib.Path('redesign-qa');out.mkdir(exist_ok=True)
+          report={}
+          try:
+              job=get(root+'/actions/jobs/113196044310')
+              report['job']={k:job.get(k) for k in ['name','status','conclusion','check_run_url']}
+              if job.get('check_run_url'):
+                  check=get(job['check_run_url']);report['output']=check.get('output')
+                  url=check.get('output',{}).get('annotations_url')
+                  if url:report['annotations']=get(url)
+          except Exception as ex:report['diagnostic_error']=str(ex)
+          (out/'deployment-diagnostic.json').write_text(json.dumps(report,indent=2))
+          print(json.dumps(report))
       - name: Install build and test tools
         run: |
           pip install beautifulsoup4 Pillow playwright
@@ -66,7 +91,7 @@ jobs:
           git config user.name 'H2 Redesign'
           git config user.email 'noreply@users.noreply.github.com'
           git add -A redesign scripts/build_redesign.py scripts/test_redesign.py
-          git diff --cached --quiet || git commit -m 'Build 40-page bilingual H2 redesign with Nalati case study and verified original media'
+          git diff --cached --quiet || git commit -m 'Refine bilingual H2 redesign and verify desktop/mobile project imagery'
           git pull --rebase origin redesign/k-studio-indigo
           git push origin HEAD:redesign/k-studio-indigo
       - name: Build existing archive and add separate redesign preview
@@ -74,7 +99,6 @@ jobs:
           python scripts/build_pages.py
           mkdir -p _site/redesign
           cp -R redesign/. _site/redesign/
-          rm -rf _site/redesign/bootstrap
           touch _site/.nojekyll
       - uses: actions/upload-artifact@v4
         if: always()
@@ -99,3 +123,9 @@ jobs:
       - name: Publish preview alongside the original study site
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify published preview
+        run: |
+          curl --fail --retry 5 --retry-delay 8 'https://owengundam.github.io/h2-website-study/redesign/' -o /tmp/h2-preview.html
+          grep -q 'Selected work' /tmp/h2-preview.html
+          curl --fail --retry 5 --retry-delay 8 'https://owengundam.github.io/h2-website-study/redesign/projects/nalati-indigo/' -o /tmp/nalati-preview.html
+          grep -q 'Make a destination' /tmp/nalati-preview.html
