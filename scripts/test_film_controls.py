@@ -34,6 +34,8 @@ with sync_playwright() as p:
         return page
     def wait_opacity(page, shown):
         page.wait_for_function("expected => Math.abs(Number(getComputedStyle(document.querySelector('.film-controls')).opacity) - expected) < .01",arg=1 if shown else 0)
+    def wait_playing(page):
+        page.wait_for_function("document.querySelector('.home-film').readyState>=2 && !document.querySelector('.home-film').paused",timeout=45000)
     def assert_clean(page):
         data = page.evaluate('''() => {
           const v=document.querySelector('.home-film'), panel=document.querySelector('.film-controls');
@@ -61,16 +63,18 @@ with sync_playwright() as p:
         context = browser.new_context(viewport={'width':width,'height':1000},reduced_motion='reduce')
         page = prepare(context)
         for route in ('','cn/'):
+            print('Checking',width,route or '/',flush=True)
             page.goto(BASE+route,wait_until='domcontentloaded')
             page.locator('.home-cinema').scroll_into_view_if_needed()
-            page.wait_for_function("document.querySelector('.home-film').readyState>=2",timeout=45000)
+            # Reduced-motion + preload=none intentionally leaves the film unloaded
+            # until Play is pressed. Check UI first; decode only after interaction.
             page.mouse.move(1,1)
             wait_opacity(page,False)
             data = assert_clean(page)
             page.locator('.home-cinema').hover(position={'x':30,'y':30})
             wait_opacity(page,True)
             page.locator('.film-toggle').click()
-            page.wait_for_function("!document.querySelector('.home-film').paused")
+            wait_playing(page)
             assert page.locator('.film-toggle').get_attribute('data-icon')=='pause'
             page.locator('.film-toggle').click()
             assert page.locator('.home-film').evaluate('(v)=>v.paused')
@@ -84,7 +88,7 @@ with sync_playwright() as p:
                 page.locator('.home-cinema').screenshot(path=str(OUT/'video-controls-hidden.jpg'),type='jpeg',quality=90)
                 page.locator('.home-cinema').hover(position={'x':30,'y':30})
                 page.locator('.film-toggle').click()
-                page.wait_for_function("document.querySelector('.film-toggle').dataset.icon==='pause'")
+                wait_playing(page)
                 page.locator('.home-cinema').screenshot(path=str(OUT/'video-white-hover-icons.jpg'),type='jpeg',quality=90)
                 page.locator('.film-fullscreen').click()
                 page.wait_for_function("document.fullscreenElement?.classList.contains('home-cinema')")
@@ -97,8 +101,9 @@ with sync_playwright() as p:
                 page.keyboard.press('Tab')
                 page.locator('.film-toggle').focus()
                 wait_opacity(page,True)
+                was_paused=page.locator('.home-film').evaluate('(v)=>v.paused')
                 page.keyboard.press('Space')
-                page.wait_for_function("document.querySelector('.home-film').paused")
+                page.wait_for_function("wasPaused => document.querySelector('.home-film').paused !== wasPaused",arg=was_paused)
                 assert_clean(page)
                 report.update(fullscreen_icons=True,keyboard_controls=True,hover_hide_after_click=True)
             report['pages'].append({'width':width,'route':route,'passed':True,'geometry':data['frame']})
@@ -118,12 +123,11 @@ with sync_playwright() as p:
     context=browser.new_context(viewport={'width':390,'height':844},has_touch=True,is_mobile=True,reduced_motion='reduce')
     page=prepare(context);page.goto(BASE,wait_until='domcontentloaded')
     page.locator('.home-cinema').scroll_into_view_if_needed()
-    page.wait_for_function("document.querySelector('.home-film').readyState>=2",timeout=45000)
     wait_opacity(page,False)
     page.locator('.home-cinema').tap(position={'x':30,'y':30})
     wait_opacity(page,True)
     page.locator('.film-toggle').tap()
-    page.wait_for_function("!document.querySelector('.home-film').paused")
+    wait_playing(page)
     wait_opacity(page,False)
     assert_clean(page)
     report['touch_tap_reveal_and_hide']=True
