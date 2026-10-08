@@ -1,0 +1,133 @@
+name: Build H2 redesign preview
+on:
+  push:
+    branches: [redesign/k-studio-indigo]
+    paths:
+      - .github/workflows/redesign-preview.yml
+      - scripts/build_redesign.py
+      - scripts/test_redesign.py
+      - redesign/*.css
+      - redesign/*.js
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  actions: read
+  checks: read
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: redesign/k-studio-indigo
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Normalize archive caption and screenshot capture
+        shell: python
+        run: |
+          from pathlib import Path
+          source=Path('scripts/build_redesign.py')
+          text=source.read_text()
+          text=text.replace('Yu Hong, portrait from H2’s profile','Inside the H2 studio, from the practice profile')
+          text=text.replace('洪羽，图片来自赫图公开介绍','赫图工作室空间，图片来自事务所公开介绍')
+          text=text.replace('# Identify a real portrait in the existing profile page; otherwise use no invented portrait.','# Select a studio interior from the practice profile; do not invent a founder portrait.')
+          source.write_text(text)
+          tests=Path('scripts/test_redesign.py')
+          text=tests.read_text()
+          needle='                    page.screenshot(path=str(QA/'
+          if 'Wait for decoded and painted imagery' not in text:
+              lines=[
+                  '# Wait for decoded and painted imagery, including off-screen lazy images.',
+                  'page.evaluate("async()=>{await Promise.all([...document.querySelectorAll(\'main img[src]\')].map(i=>i.decode()))}")',
+                  "for image in page.locator('main img[src]').all():",
+                  '    image.scroll_into_view_if_needed()',
+                  '    page.wait_for_timeout(60)',
+                  "page.evaluate('scrollTo(0,0)')",
+                  'page.wait_for_timeout(200)',
+              ]
+              extra='\n'.join(' '*20+line for line in lines)+'\n'
+              text=text.replace(needle,extra+needle)
+          compile(text,str(tests),'exec')
+          tests.write_text(text)
+      - name: Record preview-deployment diagnostics
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: python
+        run: |
+          import urllib.request,json,os,pathlib
+          root='https://api.github.com/repos/Owengundam/h2-website-study'
+          def get(url):
+              req=urllib.request.Request(url,headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'})
+              with urllib.request.urlopen(req,timeout=25) as r:return json.load(r)
+          out=pathlib.Path('redesign-qa');out.mkdir(exist_ok=True)
+          report={}
+          try:
+              job=get(root+'/actions/jobs/113196044310')
+              report['job']={k:job.get(k) for k in ['name','status','conclusion','check_run_url']}
+              if job.get('check_run_url'):
+                  check=get(job['check_run_url']);report['output']=check.get('output')
+                  url=check.get('output',{}).get('annotations_url')
+                  if url:report['annotations']=get(url)
+          except Exception as ex:report['diagnostic_error']=str(ex)
+          (out/'deployment-diagnostic.json').write_text(json.dumps(report,indent=2))
+          print(json.dumps(report))
+      - name: Install build and browser tools
+        timeout-minutes: 3
+        run: |
+          pip install --timeout 30 beautifulsoup4 Pillow playwright
+          python -m playwright install chromium
+      - name: Build bilingual editorial website
+        run: python scripts/build_redesign.py
+      - name: Check links, mobile layout, gallery, filters and video
+        run: python scripts/test_redesign.py
+      - name: Save completed design on the isolated branch
+        run: |
+          git config user.name 'H2 Redesign'
+          git config user.email 'noreply@users.noreply.github.com'
+          git add -A redesign scripts/build_redesign.py scripts/test_redesign.py
+          git diff --cached --quiet || git commit -m 'Refine bilingual H2 redesign and verify desktop/mobile project imagery'
+          git pull --rebase origin redesign/k-studio-indigo
+          git push origin HEAD:redesign/k-studio-indigo
+      - name: Build existing archive and add separate redesign preview
+        run: |
+          python scripts/build_pages.py
+          mkdir -p _site/redesign
+          cp -R redesign/. _site/redesign/
+          touch _site/.nojekyll
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h2-redesign-review
+          path: |
+            redesign
+            redesign-qa
+            scripts/build_redesign.py
+            scripts/test_redesign.py
+          retention-days: 14
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}redesign/
+    steps:
+      - name: Publish preview alongside the original study site
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Verify published preview
+        run: |
+          curl --fail --retry 5 --retry-delay 8 'https://owengundam.github.io/h2-website-study/redesign/' -o /tmp/h2-preview.html
+          grep -q 'Selected work' /tmp/h2-preview.html
+          curl --fail --retry 5 --retry-delay 8 'https://owengundam.github.io/h2-website-study/redesign/projects/nalati-indigo/' -o /tmp/nalati-preview.html
+          grep -q 'Make a destination' /tmp/nalati-preview.html

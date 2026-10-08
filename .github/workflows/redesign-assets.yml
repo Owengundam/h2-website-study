@@ -1,0 +1,63 @@
+name: Prepare and verify H2 design assets
+on:
+  push:
+    branches: [redesign/k-studio-indigo]
+    paths: [.github/workflows/redesign-assets.yml]
+permissions:
+  contents: write
+jobs:
+  assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: redesign/k-studio-indigo
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+          pip install requests beautifulsoup4 pillow playwright pyyaml
+          python -m playwright install --with-deps chromium
+      - name: Prepare materials
+        shell: python
+        run: |
+          import yaml
+          workflow=yaml.safe_load(open('.github/workflows/redesign-materials.yml'))
+          for step in workflow['jobs']['materials']['steps']:
+              if step.get('name') == 'Inventory H2 and extract film frames':
+                  exec(compile(step['run'],'prepare_h2_assets.py','exec'))
+      - name: Inspect reference layout
+        continue-on-error: true
+        shell: python
+        run: |
+          import yaml
+          workflow=yaml.safe_load(open('.github/workflows/redesign-materials.yml'))
+          for step in workflow['jobs']['materials']['steps']:
+              if step.get('name') == 'Capture reference layout':
+                  exec(compile(step['run'],'capture_reference.py','exec'))
+      - name: Save assets to isolated branch
+        run: |
+          git config user.name 'H2 Redesign'
+          git config user.email 'noreply@users.noreply.github.com'
+          git add redesign
+          git diff --cached --quiet || git commit -m 'Extract 24 timestamped Nalati film frames and prepare project media'
+          git pull --rebase origin redesign/k-studio-indigo
+          git push origin HEAD:redesign/k-studio-indigo
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: h2-redesign-workspace
+          path: |
+            redesign
+            redesign-research/*.json
+            redesign-research/*.jpg
+            site/www.h2arch.com/portfolio-item
+            site/www.h2arch.com/cn/portfolio-item
+            site/www.h2arch.com/profile
+            site/www.h2arch.com/contact
+            site/www.h2arch.com/wp-content/uploads
+            scripts/build_pages.py
+          retention-days: 7

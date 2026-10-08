@@ -1,4 +1,4 @@
-name: Publish website study
+name: Publish H2 redesigned website
 on:
   push:
     branches: [main]
@@ -13,25 +13,55 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
-      - run: python scripts/build_pages.py
+          python-version: '3.12'
+      - name: Package redesign at the existing site address and validate links
+        run: python scripts/package_redesign.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
-      - name: Deploy
+      - name: Replace current Pages site with the redesign
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify the live homepage and Indigo case study
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        shell: python
+        run: |
+          import json, os, time, urllib.request
+          base = os.environ['PAGE_URL'].rstrip('/')
+          expected = os.environ['GITHUB_SHA']
+          paths = [('', 'Selected Work'), ('projects/nalati-indigo/', 'Make a destination'), ('cn/', '那拉提')]
+          last_error = None
+          for attempt in range(12):
+              try:
+                  stamp = str(time.time_ns())
+                  def get(path):
+                      url = base + '/' + path + '?deployment=' + stamp
+                      req = urllib.request.Request(url, headers={'Cache-Control': 'no-cache', 'User-Agent': 'H2-deployment-check'})
+                      with urllib.request.urlopen(req, timeout=25) as response:
+                          return response.read().decode('utf-8')
+                  deployment = json.loads(get('deployment.json'))
+                  assert deployment['commit'] == expected, 'An older deployment is still cached'
+                  for path, marker in paths:
+                      assert marker in get(path), 'Unexpected content at ' + path
+                  print('Verified new deployment:', expected, base + '/')
+                  break
+              except Exception as error:
+                  last_error = error
+                  if attempt == 11:
+                      raise RuntimeError('Live verification failed: ' + str(last_error)) from error
+                  time.sleep(8)
