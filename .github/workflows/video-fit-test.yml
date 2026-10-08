@@ -1,0 +1,36 @@
+name: Test Our Work video fit
+on:
+  push:
+    branches: [fix/our-work-video-fit]
+    paths:
+      - redesign/studio-home.css
+      - redesign/editorial.js
+      - scripts/test_video_fit.py
+      - .github/workflows/video-fit-test.yml
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Package the site and validate local links
+        run: |
+          python scripts/package_redesign.py
+          node --check redesign/editorial.js
+      - name: Install media and browser test tools
+        run: |
+          pip install --timeout 30 imageio-ffmpeg playwright
+          python -m playwright install chromium
+      - name: Check original picture bounds and align video with Strategy
+        run: python scripts/test_video_fit.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: our-work-video-fit
+          path: video-fit-qa
+          retention-days: 7
