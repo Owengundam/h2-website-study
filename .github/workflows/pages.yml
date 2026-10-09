@@ -27,9 +27,9 @@ jobs:
         run: python scripts/test_annotation_polish.py _site
       - name: Install browser test tools
         run: |
-          pip install --timeout 30 playwright
+          pip install --timeout 30 playwright Pillow
           python -m playwright install chromium
-      - name: Check responsive layout, stable hover, icons and round back-to-top
+      - name: Check smooth zoom, edge pixels, responsive layout and prior annotation fixes
         run: python scripts/test_annotation_polish.py _site --browser
       - uses: actions/upload-artifact@v4
         if: always()
@@ -53,7 +53,7 @@ jobs:
       - name: Publish updated H2 website
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Verify live pages, annotation fixes and unchanged original logo
+      - name: Verify live pages, clipped hover zoom and unchanged original logo
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         shell: python
@@ -81,13 +81,15 @@ jobs:
                       assert 'footer-statement' not in page, 'Removed footer slogan returned'
                       assert 'studio-film-caption' not in page, 'Removed film caption returned'
                   css = get('ui-polish.css')
-                  assert 'border-radius: 50%' in css and 'transition: none' in css
+                  assert 'border-radius: 50%' in css
+                  assert '--card-hover-scale: 1.02' in css and 'clip-path: inset(0)' in css
+                  assert 'width: calc(100% + 2px)' in css and 'transform .8s' in css
                   integrity = json.loads(get('brand-integrity.json'))
                   for variant in ('black', 'white'):
                       logo = get('assets/brand/h2-logo-' + variant + '.png', binary=True)
                       assert hashlib.sha256(logo).hexdigest() == integrity['logo_sha256'][variant]
                   assert integrity['film_source'] in get(''), 'Original atmosphere film missing'
-                  print('Verified live annotation fixes, original logo bytes and expanded copy:', expected, base + '/')
+                  print('Verified live zoom, prior annotation fixes, original logo bytes and expanded copy:', expected, base + '/')
                   break
               except Exception as error:
                   if attempt == 11:

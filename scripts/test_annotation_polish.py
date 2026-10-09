@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Regression checks for H2's five browser annotations.
+"""Regression checks for H2's browser annotations and seamless hover zoom.
 Run: python scripts/test_annotation_polish.py _site [--browser]
-Static checks use the standard library. Browser checks require Playwright.
+Static checks use the standard library. Browser checks need Playwright and Pillow.
 """
 from __future__ import annotations
 import argparse
@@ -15,6 +15,7 @@ import re
 import shutil
 import threading
 from refine_site import parse
+from hover_zoom_checks import check_zoom, check_static_mode, STATE
 
 
 def check_site(target: Path) -> dict:
@@ -99,28 +100,22 @@ def browser_checks(target: Path, qa: Path) -> dict:
                     if route == '/work/index.html':
                         assert page.locator('.project-card').count() == 13
                         card = page.locator('.project-card').nth(2)
-                        img = card.locator('.card-image img')
-                        img.evaluate('(el)=>el.decode()')
-                        card.scroll_into_view_if_needed()
-                        page.wait_for_timeout(100)
-                        image_box = img.bounding_box()
-                        card.hover()
-                        for delay in [0, 50, 150, 350, 700]:
-                            page.wait_for_timeout(delay)
-                            state = img.evaluate('''el=>{const r=el.getBoundingClientRect();const p=el.parentElement.getBoundingClientRect();const s=getComputedStyle(el);return {transform:s.transform,transition:s.transitionDuration,covered:r.left<=p.left+.01&&r.right>=p.right-.01&&r.top<=p.top+.01&&r.bottom>=p.bottom-.01};}''')
-                            assert state['transform'] == 'none' and state['transition'] == '0s' and state['covered'], (width, delay, state)
-                            assert img.bounding_box() == image_box
-                            checks += 2
+                        checks += check_zoom(page, card.locator('a'), qa=qa, label=str(width), pixel_check=width==877)
+                        card.hover(); page.wait_for_timeout(400)
                         assert float(card.locator('.card-caption').evaluate('el=>getComputedStyle(el).opacity')) > .95
-                        hyatt = page.locator('a[href*="projects/hyatt-shijiazhuang/"]')
-                        hyatt.hover()
-                        assert hyatt.locator('img').evaluate('el=>getComputedStyle(el).transform') == 'matrix(1.3, 0, 0, 1.3, 0, 0)'
+                        hyatt = page.locator('.project-card a[href*="projects/hyatt-shijiazhuang/"]')
+                        checks += check_zoom(page, hyatt, rest=1.3, zoom=1.326)
                         page.locator('[data-filter="city"]').click()
                         assert page.locator('.project-card:visible').count() == 3
+                        page.locator('[data-filter="retreats"]').click()
+                        assert page.locator('.project-card:visible').count() == 8
+                        checks += check_zoom(page,page.locator('.project-card:visible > a').first)
                         page.locator('[data-filter="all"]').click()
                         assert page.locator('.project-card:visible').count() == 13
                         page.locator('[data-view-button="index"]').click()
                         assert page.locator('.project-grid').get_attribute('data-view') == 'index'
+                        if width==877:
+                            checks += check_zoom(page, hyatt)
                         page.locator('[data-view-button="grid"]').click()
                         link = page.locator('.portfolio-note .arrow-link')
                         assert link.locator('svg').evaluate('el=>el.viewBox.baseVal.width') == 24
@@ -128,7 +123,7 @@ def browser_checks(target: Path, qa: Path) -> dict:
                         page.wait_for_timeout(700)
                         page.locator('.back-top').click()
                         page.wait_for_function('scrollY<2')
-                        checks += 8
+                        checks += 9
                         if width in (390, 877, 1440):
                             page.screenshot(path=str(qa/f'work-{width}.png'))
                             page.evaluate('scrollTo(0,document.body.scrollHeight)')
@@ -148,6 +143,26 @@ def browser_checks(target: Path, qa: Path) -> dict:
             page.keyboard.press('Escape')
             assert not page.locator('.lightbox').evaluate('el=>el.open')
             checks += 3
+            # Fractional columns, Windows-style 125% scaling and Retina pixels.
+            for dpr in [1.25,2]:
+                hd=browser.new_context(viewport={'width':877,'height':892},device_scale_factor=dpr)
+                hp=hd.new_page()
+                hp.on('pageerror',lambda error:errors.append(str(error)))
+                hp.goto(url+'/work/index.html?filter=retreats',wait_until='domcontentloaded')
+                assert hp.locator('.project-card:visible').count()==8
+                checks+=1
+                checks+=check_zoom(hp,hp.locator('.project-card:visible > a').nth(2),qa=qa,label=f'dpr-{dpr}',pixel_check=True)
+                hd.close()
+            # These modes must not regain hover motion or a sticky first-tap zoom.
+            for mode in ['reduced','touch']:
+                options={'viewport':{'width':390,'height':844}}
+                if mode=='reduced':options['reduced_motion']='reduce'
+                else:options.update(has_touch=True,is_mobile=True,device_scale_factor=3)
+                static=browser.new_context(**options)
+                sp=static.new_page();sp.goto(url+'/work/index.html',wait_until='domcontentloaded')
+                checks+=check_static_mode(sp,sp.locator('.project-card > a').nth(2))
+                checks+=check_static_mode(sp,sp.locator('.project-card a[href*="projects/hyatt-shijiazhuang/"]'),rest=1.3)
+                static.close()
             nojs = browser.new_context(java_script_enabled=False, reduced_motion='reduce',viewport={'width':390,'height':844})
             nojs.route('https://www.h2arch.com/**', lambda route: route.abort())
             np = nojs.new_page(); np.goto(url+'/work/index.html')
@@ -157,7 +172,7 @@ def browser_checks(target: Path, qa: Path) -> dict:
             browser.close()
         assert not errors, errors
         assert not missing, missing
-        return {'browser_assertions': checks, 'widths': [320,390,768,877,1440], 'javascript_exceptions': errors, 'failed_local_requests': missing, 'engine': 'Chromium (not a physical iPhone)'}
+        return {'browser_assertions': checks, 'widths': [320,390,768,877,1440], 'zoom': '1 to 1.02, animated enter/leave/reversal', 'edge_pixel_checks': '877px at DPR 1, 1.25, 2', 'static_modes': ['touch','reduced-motion'], 'javascript_exceptions': errors, 'failed_local_requests': missing, 'engine': 'Chromium (not a physical iPhone)'}
     finally:
         server.shutdown()
 
