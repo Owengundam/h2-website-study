@@ -1,0 +1,52 @@
+/* Browser-review refinements. Keep the original logo and existing layout. */
+.ui-arrow {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex: 0 0 auto;
+  vertical-align: -.125em;
+  overflow: visible;
+  fill: none;
+  stroke: currentColor;
+  pointer-events: none;
+}
+
+/* Keep image pixels fixed while captions fade. Animating the raster scale
+   at fractional grid boundaries can briefly expose a compositing seam. */
+.project-grid .project-card > a .card-image img,
+.project-grid .project-card > a:is(:hover, :focus-visible) .card-image img {
+  transform: none;
+  filter: none;
+  transition: none;
+}
+/* Preserve the deliberate source-frame crop on this one cover, at all times. */
+.project-grid[data-view="grid"] .project-card a[href*="projects/hyatt-shijiazhuang/"] .card-image img,
+.project-grid[data-view="grid"] .project-card a[href*="projects/hyatt-shijiazhuang/"]:is(:hover, :focus-visible) .card-image img {
+  transform: scale(1.3);
+  transform-origin: 50% 50%;
+  transition: none;
+}
+
+.back-top {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  line-height: 1;
+}
+.back-top .ui-arrow { width: 20px; height: 20px; }
+
+/* Remove the slogan's empty space without removing footer navigation. */
+.site-footer .footer-top {
+  justify-content: flex-end;
+  margin-bottom: 34px;
+}
+.site-footer .footer-bottom { padding-right: 52px; }
+@media (max-width: 700px) {
+  .site-footer .footer-top {
+    align-items: flex-start;
+    margin-bottom: 28px;
+  }
+}
