@@ -2,13 +2,15 @@ name: Publish H2 redesigned website
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
   pages: write
   id-token: write
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: true
 jobs:
   build:
@@ -21,10 +23,25 @@ jobs:
           python-version: '3.12'
       - name: Package original branding and public copy, then validate links
         run: python scripts/package_redesign.py
+      - name: Check annotation removals, SVG icons and original brand bytes
+        run: python scripts/test_annotation_polish.py _site
+      - name: Install browser test tools
+        run: |
+          pip install --timeout 30 playwright
+          python -m playwright install chromium
+      - name: Check responsive layout, stable hover, icons and round back-to-top
+        run: python scripts/test_annotation_polish.py _site --browser
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: annotation-qa
+          path: annotation-qa
+          retention-days: 7
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
   deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     timeout-minutes: 10
@@ -36,7 +53,7 @@ jobs:
       - name: Publish updated H2 website
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Verify live pages and unchanged original logo
+      - name: Verify live pages, annotation fixes and unchanged original logo
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         shell: python
@@ -44,7 +61,7 @@ jobs:
           import hashlib, json, os, time, urllib.request
           base = os.environ['PAGE_URL'].rstrip('/')
           expected = os.environ['GITHUB_SHA']
-          paths = [('', 'Architecture for hospitality'), ('projects/nalati-indigo/', 'Low-rise buildings, shared horizons.'), ('cn/', '那拉提')]
+          paths = [('', 'Architecture for hospitality'), ('work/index.html', 'Selected work'), ('projects/nalati-indigo/', 'Low-rise buildings, shared horizons.'), ('cn/', '那拉提')]
           for attempt in range(12):
               try:
                   stamp = str(time.time_ns())
@@ -60,11 +77,17 @@ jobs:
                       page = get(path)
                       assert marker in page, 'Unexpected content at ' + path
                       assert 'brand-logo' in page, 'Original logo missing'
+                      assert 'ui-polish.css' in page and 'class="ui-arrow"' in page, 'SVG interface update missing'
+                      assert 'footer-statement' not in page, 'Removed footer slogan returned'
+                      assert 'studio-film-caption' not in page, 'Removed film caption returned'
+                  css = get('ui-polish.css')
+                  assert 'border-radius: 50%' in css and 'transition: none' in css
                   integrity = json.loads(get('brand-integrity.json'))
-                  logo = get('assets/brand/h2-logo-black.png', binary=True)
-                  assert hashlib.sha256(logo).hexdigest() == integrity['logo_sha256']['black']
+                  for variant in ('black', 'white'):
+                      logo = get('assets/brand/h2-logo-' + variant + '.png', binary=True)
+                      assert hashlib.sha256(logo).hexdigest() == integrity['logo_sha256'][variant]
                   assert integrity['film_source'] in get(''), 'Original atmosphere film missing'
-                  print('Verified new deployment, original logo bytes, original film URL and expanded copy:', expected, base + '/')
+                  print('Verified live annotation fixes, original logo bytes and expanded copy:', expected, base + '/')
                   break
               except Exception as error:
                   if attempt == 11:
