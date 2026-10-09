@@ -11,20 +11,48 @@
   pointer-events: none;
 }
 
-/* Keep image pixels fixed while captions fade. Animating the raster scale
-   at fractional grid boundaries can briefly expose a compositing seam. */
+/* Keep the clipping surface in place; animate only the image inside it.
+   A permanent one-pixel bleed covers fractional grid/raster boundaries
+   on both hover-in and hover-out. Never change the tile's dimensions. */
+.project-grid .project-card > a .card-image {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  transform: translateZ(0);
+}
 .project-grid .project-card > a .card-image img,
 .project-grid .project-card > a:is(:hover, :focus-visible) .card-image img {
-  transform: none;
+  --cover-scale: 1;
+  --cover-hover-scale: 1.02;
+  position: absolute;
+  inset: -1px;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  max-width: none;
+  object-fit: cover;
+  transform-origin: 50% 50%;
+  transform: translateZ(0) scale(var(--cover-scale));
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   filter: none;
   transition: none;
 }
-/* Preserve the deliberate source-frame crop on this one cover, at all times. */
+/* Preserve the intentional source-frame crop, including during the zoom. */
 .project-grid[data-view="grid"] .project-card a[href*="projects/hyatt-shijiazhuang/"] .card-image img,
 .project-grid[data-view="grid"] .project-card a[href*="projects/hyatt-shijiazhuang/"]:is(:hover, :focus-visible) .card-image img {
-  transform: scale(1.3);
-  transform-origin: 50% 50%;
-  transition: none;
+  --cover-scale: 1.3;
+  --cover-hover-scale: 1.326;
+  transform: translateZ(0) scale(var(--cover-scale));
+}
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .project-grid .project-card > a .card-image img,
+  .project-grid .project-card > a:is(:hover, :focus-visible) .card-image img {
+    transition: transform .85s cubic-bezier(.2, .65, .2, 1);
+  }
+  .project-grid .project-card > a:is(:hover, :focus-visible) .card-image img,
+  .project-grid[data-view="grid"] .project-card a[href*="projects/hyatt-shijiazhuang/"]:is(:hover, :focus-visible) .card-image img {
+    transform: translateZ(0) scale(var(--cover-hover-scale));
+  }
 }
 
 .back-top {
