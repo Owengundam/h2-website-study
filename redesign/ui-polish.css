@@ -11,21 +11,53 @@
   pointer-events: none;
 }
 
-/* Keep image pixels fixed while captions fade. Animating the raster scale
-   at fractional grid boundaries can briefly expose a compositing seam. */
-.project-grid .project-card > a .card-image img,
-.project-grid .project-card > a:is(:hover, :focus-visible) .card-image img {
-  transform: none;
-  filter: none;
-  transition: none;
+/* Animate only the image, not the tile or its clipping boundary. A one-pixel
+   bleed on every side keeps fractional grid edges covered even at rest.
+   Keep the same transform stack before, during and after hover, rather than
+   introducing a composited image layer only when the pointer enters. */
+.project-grid .project-card > a {
+  --card-rest-scale: 1;
+  --card-hover-scale: 1.02;
+  --card-scale: var(--card-rest-scale);
+  --card-transition: none;
 }
-/* Preserve the deliberate source-frame crop on this one cover, at all times. */
+.project-grid .project-card > a .card-image {
+  overflow: hidden;
+  isolation: isolate;
+  clip-path: inset(0);
+}
+.project-grid .project-card > a .card-image img,
+.project-grid .project-card > a:is(:hover, :focus-visible) .card-image img,
 .project-grid[data-view="grid"] .project-card a[href*="projects/hyatt-shijiazhuang/"] .card-image img,
 .project-grid[data-view="grid"] .project-card a[href*="projects/hyatt-shijiazhuang/"]:is(:hover, :focus-visible) .card-image img {
-  transform: scale(1.3);
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  max-width: none;
+  object-fit: cover;
   transform-origin: 50% 50%;
-  transition: none;
+  transform: translate3d(0, 0, 0) scale(var(--card-scale));
+  backface-visibility: hidden;
+  filter: none;
+  transition: var(--card-transition);
 }
+/* Preserve the intentional source-frame crop; add the same 2% hover zoom. */
+.project-grid[data-view="grid"] .project-card a[href*="projects/hyatt-shijiazhuang/"] {
+  --card-rest-scale: 1.3;
+  --card-hover-scale: 1.326;
+}
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .project-grid .project-card > a {
+    --card-transition: transform .8s cubic-bezier(.2, .65, .2, 1);
+  }
+  .project-grid .project-card > a:is(:hover, :focus-visible) {
+    --card-scale: var(--card-hover-scale);
+  }
+}
+/* Touch and reduced-motion users retain a static image and the existing
+   readable captions. Zoom never delays opening a project on the first tap. */
 
 .back-top {
   width: 44px;
