@@ -39,4 +39,12 @@
 @media(max-width:1100px){.studio-work{gap:40px;margin-bottom:80px}.studio-homepage .page-lead{margin-top:65px;margin-bottom:75px}.studio-work-copy .chapter-copy h2{font-size:34px}.studio-work-copy .chapter-copy p{font-size:13px}.studio-work-film .film-controls{gap:6px}}
 @media(max-width:700px){.studio-homepage .studio-landing{height:88svh;min-height:440px;max-height:900px}.studio-landing img{object-position:50% 60%}.studio-landing-caption{font-size:8px;padding:20px var(--pad);gap:15px}.studio-homepage .site-header.is-open .nav-wrap{background:#fefdf9;color:var(--ink)}.studio-homepage .page-lead{margin-top:45px;margin-bottom:60px;scroll-margin-top:115px}.studio-work{grid-template-columns:1fr;gap:35px;margin-bottom:60px;scroll-margin-top:115px}.studio-work-copy .chapter-label{margin-bottom:23px}.studio-work-copy .chapter-copy h2{font-size:33px}.studio-work-copy .chapter-copy p{font-size:14px}.studio-work-copy .arrow-link{margin-top:20px}.studio-work-film .home-cinema{aspect-ratio:16/9;min-height:0}.studio-film-caption{font-size:9px;padding-top:10px}}
 @media(prefers-reduced-motion:reduce){.studio-homepage .site-header,.studio-homepage .brand-logo,.studio-homepage .brand-logo-white{transition:none}}
-@media print{.studio-homepage .site-header{display:none}.studio-homepage .studio-landing{height:300px;min-height:0}.studio-work{display:block;margin:25px 0}.studio-work-film{display:none}.studio-homepage .page-lead{margin:25px 0}}
+
+/* Center only the introductory statement; preserve the split Our Work layout. */
+.studio-homepage #studio-introduction{display:block;text-align:center}
+.studio-homepage #studio-introduction>div{width:100%;min-width:0;margin-inline:auto}
+.studio-homepage #studio-introduction h1{max-width:none;margin:0 auto;font-size:clamp(26px,3.8vw,64px);line-height:1.15;letter-spacing:-.04em;white-space:nowrap}
+.studio-homepage #studio-introduction p{max-width:760px;margin:28px auto 0;font-size:16px;line-height:1.75;text-wrap:pretty}
+/* Keep phone-sized text legible rather than shrinking the entire sentence. */
+@media(max-width:700px){.studio-homepage #studio-introduction h1{font-size:clamp(29px,7.4vw,45px);white-space:normal;text-wrap:balance}.studio-homepage #studio-introduction p{font-size:14px;margin-top:22px}}
+@media print{.studio-homepage .site-header{display:none}.studio-homepage .studio-landing{height:300px;min-height:0}.studio-work{display:block;margin:25px 0}.studio-work-film{display:none}.studio-homepage .page-lead{margin:25px 0}.studio-homepage #studio-introduction h1{white-space:normal}}

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply the five browser-annotation fixes after the Studio homepage is built.
+"""Apply browser-annotation refinements after the Studio homepage is built.
 
 Standard library only. Preserve existing branding, copy, media and links.
 Icons are inline SVG paths, not characters resolved through a device font.
@@ -68,12 +68,22 @@ def polish(target: Path) -> dict:
     if not css.is_file():
         raise RuntimeError(f'Missing UI stylesheet: {css}')
     (target/STYLESHEET).write_bytes(css.read_bytes())
-    stats = {'pages': 0, 'removed_film_captions': 0, 'removed_footer_statements': 0, 'svg_arrows': 0}
+    stats = {'pages': 0, 'removed_film_captions': 0, 'removed_footer_statements': 0, 'svg_arrows': 0, 'centered_introductions': 0}
     for path in sorted(target.rglob('*.html')):
         doc = parse(path.read_text(encoding='utf-8'))
         if not doc.all('main'):
             continue
         body, head = doc.one('body'), doc.one('head')
+        for intro in body.all(id='studio-introduction'):
+            # Remove the label from HTML, not just from the visual layout.
+            for node in list(intro.all(cls='eyebrow')):
+                if node.parent is intro:
+                    node.remove()
+            heading = intro.one('h1')
+            is_chinese = (doc.one('html').attrs.get('lang') or '').startswith('zh')
+            separator = '' if is_chinese else ' '
+            heading.set_text(separator.join(heading.text().split()))
+            stats['centered_introductions'] += 1
         for node in list(doc.all(cls='studio-film-caption')):
             node.remove()
             stats['removed_film_captions'] += 1
