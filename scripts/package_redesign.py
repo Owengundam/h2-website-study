@@ -10,6 +10,7 @@ from pathlib import Path
 from urllib.parse import unquote, urljoin, urlsplit
 from refine_site import refine, parse, FILM
 from studio_homepage import make_studio_homepage
+from polish_site import polish
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT/'redesign'
@@ -35,7 +36,7 @@ class Links(HTMLParser):
             elif key=='srcset':self.urls.extend(item.strip().split()[0] for item in value.split(',') if item.strip())
 
 def main():
-    required=['index.html','projects/nalati-indigo/index.html','cn/index.html','site.css','site.js','editorial.css','editorial.js','editorial.json','studio-home.css','studio-home.js']
+    required=['index.html','projects/nalati-indigo/index.html','cn/index.html','site.css','site.js','editorial.css','editorial.js','editorial.json','studio-home.css','studio-home.js','ui-polish.css']
     for relative in required:
         if not (SOURCE/relative).is_file():raise RuntimeError('Missing redesign file: '+relative)
     if TARGET.exists():shutil.rmtree(TARGET)
@@ -45,6 +46,7 @@ def main():
             file.write_text(file.read_text(encoding='utf-8').replace(OLD_BASE,BASE),encoding='utf-8')
     refine(TARGET)
     make_studio_homepage(TARGET)
+    polish(TARGET)
     pages=sorted(TARGET.rglob('*.html'))
     assert len(pages)==40,'Unexpected public page count'
     banned=['Make a destination, not simply a hotel.','Bring the scale down to the landscape.',
