@@ -38,7 +38,7 @@ def check_zoom(page, link, rest=1.0, zoom=1.02, qa=None, label='tile', pixel_che
         # This CSS exists only in this test's browser, never in the published site.
         marker = page.add_style_tag(content='.project-grid,.project-card,.card-image{background:#ff00ff!important}')
 
-    def sample(phase, delay):
+    def sample(phase, delay, capture=True):
         nonlocal checks
         state = link.evaluate(STATE)
         assert min(state['cover']) >= .9, (phase, delay, state)
@@ -46,7 +46,7 @@ def check_zoom(page, link, rest=1.0, zoom=1.02, qa=None, label='tile', pixel_che
         assert rest-.0002 <= state['scale'] <= zoom+.0002, state
         samples.append(dict(phase=phase, delay=delay, **state))
         checks += 3
-        if pixel_check:
+        if pixel_check and capture:
             from PIL import Image
             data = page.screenshot()
             image = Image.open(io.BytesIO(data)).convert('RGB')
@@ -70,12 +70,19 @@ def check_zoom(page, link, rest=1.0, zoom=1.02, qa=None, label='tile', pixel_che
 
     try:
         link.hover()
+        # First sample without screenshot encoding: a full Retina PNG can take
+        # longer than the transition on a shared runner. It must not be the clock
+        # used to decide whether intermediate animation values actually existed.
+        for tick in range(8):
+            page.wait_for_timeout(16)
+            sample('enter-motion',tick*16,capture=False)
+        assert any(rest+.0001<s['scale']<zoom-.0001 for s in samples), ('Zoom jumped instead of animating',samples)
+        checks += 1
         for delay in [0,16,64,160,240,400]:
             page.wait_for_timeout(delay)
             end = sample('enter',delay)
         assert abs(end['scale']-zoom)<.0002, ('No hover zoom',end)
-        assert any(rest+.0001<s['scale']<zoom-.0001 for s in samples), 'Zoom jumped instead of animating'
-        checks += 2
+        checks += 1
         page.mouse.move(1,1)
         for delay in [16,80,160,240,400]:
             page.wait_for_timeout(delay)
@@ -90,9 +97,9 @@ def check_zoom(page, link, rest=1.0, zoom=1.02, qa=None, label='tile', pixel_che
         sample('settled',0)
     finally:
         if marker: marker.evaluate('el=>el.remove()')
-    if qa:
-        Path(qa).mkdir(parents=True,exist_ok=True)
-        (Path(qa)/f'zoom-{label}.json').write_text(json.dumps(samples,indent=2))
+        if qa:
+            Path(qa).mkdir(parents=True,exist_ok=True)
+            (Path(qa)/f'zoom-{label}.json').write_text(json.dumps(samples,indent=2))
     return checks
 
 
