@@ -10,6 +10,7 @@ from pathlib import Path
 from urllib.parse import unquote, urljoin, urlsplit
 from refine_site import refine, parse, FILM
 from studio_homepage import make_studio_homepage
+from studio_collaborators import add_collaborators
 from polish_site import polish
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -46,6 +47,7 @@ def main():
             file.write_text(file.read_text(encoding='utf-8').replace(OLD_BASE,BASE),encoding='utf-8')
     refine(TARGET)
     make_studio_homepage(TARGET)
+    add_collaborators(TARGET)
     polish(TARGET)
     pages=sorted(TARGET.rglob('*.html'))
     assert len(pages)==40,'Unexpected public page count'
